@@ -21,3 +21,9 @@ Route::get('/', function () {
 });
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/index', 'UsersController@index')->name('index');
+//Route::get('/edit', 'UsersController@edit')->name('edit');
+//Route::get('/show', 'UsersController@show')->name('show');
+Route::get('/tutoriales', 'DashboardController@tutoriales')->name('tutoriales');
+Route::get('/regular', 'DashboardController@linkRegular')->name('regular');
+Route::get('/premium', 'DashboardController@linkPremium')->name('premium');
