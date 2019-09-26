@@ -26,6 +26,10 @@
             background-color: #383838;
             color: #000000;
             font-family: 'Nunito', sans-serif;
+            background-image: url("/images/intro.jpg");
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-position: center; 
         }
 
     </style>
@@ -54,11 +58,11 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar sesion') }}</a>
                             </li>
-                            <!--@if (Route::has('register'))
+                            @if (Route::has('register'))
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarse') }}</a>
                                 </li>
-                            @endif-->
+                            @endif
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

@@ -6,88 +6,100 @@
 
         <title>EstudioGyD</title>
 
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <style> 
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+        <style>
+            .background-image {
+                background: url('/images/intro.jpg') no-repeat center center fixed;
+                background-size: cover;
+                height: 100vh;
+                border-radius: 0px;
+                margin: 0;
+            }
+            .container    {
+                height: 300px;
+            }
+
             html, body {
-                background-color: #383838;
+                /*background: url('/images/intro.jpg') no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                background-size: cover;
+                -o-background-size: cover;
+                
                 color: #bababa;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            /*.top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }*/
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #bababa;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
+                background-image: url("/images/intro.jpg");
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 background-position: center;*/ 
             }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-                <!--<div class="top-right links"> </div>-->
-
-            <div class="content">
-                <div>
-                    <img src="/images/gydlogo.png" width="60%" height="60%">
-                </div>
-
-
-                <div class="row links">
+        <div class="jumbotron background-image">
+            <!--<div class="row h-100 align-items-center">
+                <div class="col-3 my-auto">
                     @if (Route::has('login'))
                         @auth
-                        <a href="{{ url('/home') }}">home</a>
+                        <a class="btn btn-success btn-lg" href="{{ url('/home') }}" role="button">Home</a>
+                        @else
+                        <a class="btn btn-success btn-lg" href="{{ route('login') }}">Iniciar sesi&oacute;n</a>
+
+                        @if (Route::has('register'))
+                        <a class="btn btn-success btn-lg" href="{{ route('register') }}">Registrarse</a>
+                        @endif
+                        @endauth
+                    @endif
+                </div>
+            </div>-->
+            <div class="container h-100">
+            <div class="row h-100 align-items-end">
+                <div class="col-4 mx-auto">
+                    @if (Route::has('login'))
+                        @auth
+                        <a class="btn btn-success btn-lg btn-block" href="{{ url('/home') }}" role="button">Home</a>
+                        @else
+                        <a class="btn btn-success btn-lg btn-block" href="{{ route('login') }}">Iniciar sesi&oacute;n</a>
+
+                        @if (Route::has('register'))
+                        <a class="btn btn-success btn-lg btn-block" href="{{ route('register') }}">Registrarse</a>
+                        @endif
+                        @endauth
+                    @endif
+            </div>
+            </div>
+
+
+        <!-- <div class="flex-center position-ref full-height">
+                <div class="top-right links"> </div>
+
+            <div class="container">
+                <div class="row">
+                    @if (Route::has('login'))
+                        @auth
+                        <a class="btn btn-primary" href="{{ url('/home') }}" role="button">home</a>
                         @else
                         <a href="{{ route('login') }}">iniciar sesión</a>
 
-                        <!--@if (Route::has('register'))
+                        @if (Route::has('register'))
                         <a href="{{ route('register') }}">registrarse</a>
-                        @endif-->
+                        @endif
                         @endauth
                     @endif
                 </div>
 
             </div>
-        </div>
+        </div> -->
     </body>
 </html>
