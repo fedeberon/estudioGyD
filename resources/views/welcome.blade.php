@@ -6,88 +6,45 @@
 
         <title>EstudioGyD</title>
 
+        <!-- Scripts -->
+        <script src="{{ asset('js/app.js') }}" defer></script>
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <style> 
-            html, body {
-                background-color: #383838;
-                color: #bababa;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+        <style>
+            .background-image {
+                background: url('/images/intro.jpg') no-repeat center center fixed;
+                background-size: cover;
                 height: 100vh;
+                border-radius: 0px;
                 margin: 0;
             }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            /*.top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }*/
-
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                font-size: 84px;
-            }
-
-            .links > a {
-                color: #bababa;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-
-            .m-b-md {
-                margin-bottom: 30px;
+            .container    {
+                height: 300px;
             }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-                <!--<div class="top-right links"> </div>-->
-
-            <div class="content">
-                <div>
-                    <img src="/images/gydlogo.png" width="60%" height="60%">
-                </div>
-
-
-                <div class="row links">
+        <div class="jumbotron background-image">
+            <div class="container h-100">
+            <div class="row h-100 align-items-end">
+                <div class="col-4 mx-auto">
                     @if (Route::has('login'))
                         @auth
-                        <a href="{{ url('/home') }}">home</a>
+                        <a class="btn btn-success btn-lg btn-block" href="{{ url('/home') }}" role="button">Home</a>
                         @else
-                        <a href="{{ route('login') }}">iniciar sesión</a>
+                        <a class="btn btn-success btn-lg btn-block" href="{{ route('login') }}">Iniciar sesi&oacute;n</a>
 
                         @if (Route::has('register'))
-                        <a href="{{ route('register') }}">registrarse</a>
+                        <a class="btn btn-success btn-lg btn-block" href="{{ route('register') }}">Registrarse</a>
                         @endif
                         @endauth
                     @endif
-                </div>
-
             </div>
-        </div>
+            </div>
     </body>
 </html>

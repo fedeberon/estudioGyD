@@ -21,7 +21,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <style>
-        html, body {
+       <!--html, body {
             /*overflow: hidden;*/
             background-color: #383838;
             color: #000000;
