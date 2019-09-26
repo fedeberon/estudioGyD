@@ -26,43 +26,10 @@
             .container    {
                 height: 300px;
             }
-
-            html, body {
-                /*background: url('/images/intro.jpg') no-repeat center center fixed;
-                -webkit-background-size: cover;
-                -moz-background-size: cover;
-                background-size: cover;
-                -o-background-size: cover;
-                
-                color: #bababa;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-                background-image: url("/images/intro.jpg");
-                 background-repeat: no-repeat;
-                 background-attachment: fixed;
-                 background-position: center;*/ 
-            }
         </style>
     </head>
     <body>
         <div class="jumbotron background-image">
-            <!--<div class="row h-100 align-items-center">
-                <div class="col-3 my-auto">
-                    @if (Route::has('login'))
-                        @auth
-                        <a class="btn btn-success btn-lg" href="{{ url('/home') }}" role="button">Home</a>
-                        @else
-                        <a class="btn btn-success btn-lg" href="{{ route('login') }}">Iniciar sesi&oacute;n</a>
-
-                        @if (Route::has('register'))
-                        <a class="btn btn-success btn-lg" href="{{ route('register') }}">Registrarse</a>
-                        @endif
-                        @endauth
-                    @endif
-                </div>
-            </div>-->
             <div class="container h-100">
             <div class="row h-100 align-items-end">
                 <div class="col-4 mx-auto">
@@ -79,27 +46,5 @@
                     @endif
             </div>
             </div>
-
-
-        <!-- <div class="flex-center position-ref full-height">
-                <div class="top-right links"> </div>
-
-            <div class="container">
-                <div class="row">
-                    @if (Route::has('login'))
-                        @auth
-                        <a class="btn btn-primary" href="{{ url('/home') }}" role="button">home</a>
-                        @else
-                        <a href="{{ route('login') }}">iniciar sesión</a>
-
-                        @if (Route::has('register'))
-                        <a href="{{ route('register') }}">registrarse</a>
-                        @endif
-                        @endauth
-                    @endif
-                </div>
-
-            </div>
-        </div> -->
     </body>
 </html>

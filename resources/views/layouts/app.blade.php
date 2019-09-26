@@ -21,15 +21,11 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <style>
-        html, body {
+       <!--html, body {
             /*overflow: hidden;*/
             background-color: #383838;
             color: #000000;
             font-family: 'Nunito', sans-serif;
-            background-image: url("/images/intro.jpg");
-             background-repeat: no-repeat;
-             background-attachment: fixed;
-             background-position: center; 
         }
 
     </style>
