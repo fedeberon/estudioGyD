@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\User;
 use Illuminate\Http\Request;
-use usersAdministracion;
 use DB;
 use Input;
 use Storage;

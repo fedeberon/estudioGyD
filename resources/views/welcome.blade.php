@@ -31,20 +31,20 @@
     <body>
         <div class="jumbotron background-image">
             <div class="container h-100">
-            <div class="row h-100 align-items-end">
-                <div class="col-4 mx-auto">
-                    @if (Route::has('login'))
-                        @auth
-                        <a class="btn btn-success btn-lg btn-block" href="{{ url('/home') }}" role="button">Home</a>
-                        @else
-                        <a class="btn btn-success btn-lg btn-block" href="{{ route('login') }}">Iniciar sesi&oacute;n</a>
+                <div class="row h-100 align-items-end">
+                    <div class="col-4 mx-auto">
+                        @if (Route::has('login'))
+                            @auth
+                            <a class="btn btn-success btn-lg btn-block" href="{{ url('/home') }}" role="button">Home</a>
+                            @else
+                            <a class="btn btn-success btn-lg btn-block" href="{{ route('login') }}">Iniciar sesi&oacute;n</a>
 
-                        @if (Route::has('register'))
-                        <a class="btn btn-success btn-lg btn-block" href="{{ route('register') }}">Registrarse</a>
+                            @if (Route::has('register'))
+                            <a class="btn btn-success btn-lg btn-block" href="{{ route('register') }}">Registrarse</a>
+                            @endif
+                            @endauth
                         @endif
-                        @endauth
-                    @endif
-            </div>
+                </div>
             </div>
     </body>
 </html>

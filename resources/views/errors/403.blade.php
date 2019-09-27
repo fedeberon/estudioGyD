@@ -1,5 +1,8 @@
-@extends('errors.layout')
-
+<html>
+<head>
+    <title>ERROR 403</title>
+</head>
+<body>
 @php
   $error_number = 403;
 @endphp
@@ -10,7 +13,8 @@
 
 @section('description')
   @php
-    $default_error_message = "Please <a href='javascript:history.back()''>go back</a> or return to <a href='".url('')."'>our homepage</a>.";
+    $default_error_message = "No tienes los permisos necesarios para acceder a esta pagina, vuelve a la <a href='javascript:history.back()''>pagina anterior</a> o ve a la <a href='".url('')."'>pagina de inicio</a>.";
   @endphp
   {!! isset($exception)? ($exception->getMessage()?$exception->getMessage():$default_error_message): $default_error_message !!}
-@endsection
+</body>
+</html>
