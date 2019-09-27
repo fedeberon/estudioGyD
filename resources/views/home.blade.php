@@ -54,7 +54,7 @@
                                     <div class="card-body">
                                         <div class="row">
                                             <div class="col-12 text-center">
-                                                <h5 class="card-title">Mapas</h5>
+                                                <h5 class="card-title">Mapas NDVI</h5>
                                                 <p class="card-text">visualizar mapas</p>
                                             </div>
                                             <div class="col-12 text-center pt-3">

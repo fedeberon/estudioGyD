@@ -1,6 +1,16 @@
 <html>
 <head>
     <title>Premium</title>
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/app.js') }}" defer></script>
+
+    <!-- Styles -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
 </head>
 <body>
 
@@ -22,5 +32,15 @@
     })();
     // ]]></script>
 
+    <div class="container">
+        <div class="row h-100 align-items-end">
+            <div class="col-3">
+                <a href="/home" class="btn-lg btn-block btn btn-primary m-2"><i class="fas fa-chevron-left"></i> Atras</a>
+            </div>
+            <div class="col-8">
+                <img src="/images/barra-vigor.jpeg">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
