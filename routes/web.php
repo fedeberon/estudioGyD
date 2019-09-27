@@ -20,10 +20,38 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
+
+/*UNIVERSAL ROUTES*/
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/index', 'UsersController@index')->name('index');
-//Route::get('/edit', 'UsersController@edit')->name('edit');
-//Route::get('/show', 'UsersController@show')->name('show');
 Route::get('/tutoriales', 'DashboardController@tutoriales')->name('tutoriales');
-Route::get('/regular', 'DashboardController@linkRegular')->name('regular');
-Route::get('/premium', 'DashboardController@linkPremium')->name('premium');
+
+
+
+/*ERRORS*/
+Route::get('/403', function () { return view('/errors/403'); });
+
+
+
+/*ADMIN PERMISSIONS*/
+Route::group(['middleware' => 'admin'], function () {
+    Route::get('/index', 'UsersController@index')->name('index');
+    Route::get('/premium', 'DashboardController@linkPremium')->name('premium');
+    Route::get('/regular', 'DashboardController@linkRegular')->name('regular');
+    //Route::get('/edit', 'UsersController@edit')->name('edit');
+    //Route::get('/show', 'UsersController@show')->name('show');
+});
+
+
+
+/*PREMIUM PERMISSIONS*/
+Route::group(['middleware' => 'premium'], function () {
+    Route::get('/premium', 'DashboardController@linkPremium')->name('premium');
+});
+
+
+
+/*REGULAR PERMISSIONS*/
+Route::group(['middleware' => 'regular'], function () {
+    Route::get('/regular', 'DashboardController@linkRegular')->name('regular');
+});
