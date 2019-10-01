@@ -20,14 +20,14 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
-    <style>
-       <!--html, body {
-            /*overflow: hidden;*/
-            background-color: #383838;
-            color: #000000;
-            font-family: 'Nunito', sans-serif;
-        }
 
+   <style>
+        html, body {
+               /*overflow: hidden;*/
+               background-color: #383838;
+               color: #000000;
+               font-family: 'Nunito', sans-serif;
+           }
     </style>
 </head>
 <body>
