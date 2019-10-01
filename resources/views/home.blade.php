@@ -69,6 +69,39 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+                                <nav class="navbar fixed-bottom navbar-light bg-light">
+
+                                    <h2 class="tetx-left" style="margin-bottom: 0%;">
+                                        <a class="navbar-link text-primary pr-5" href="http://facebook.com/estudiogy.d" target="_blank"><i class="fab fa-facebook "></i></a>
+                                        <a class="navbar-link text-danger pr-5" href="http://www.youtube.com/user/estudiogyd" target="_blank"><i class="fab fa-youtube"></i></a>
+                                        <a class="navbar-link text-secondary pr-5" href="https://www.linkedin.com/in/mariano-delbuono-b95b1b22/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        <!--<a class="navbar-link text-success" href="https://wa.me/542494447899" target="_blank"><i class="fab fa-whatsapp"></i></a>-->
+                                    </h2>
+
+                                        <a class="navbar-link text-dark">info@estudiogyd.com.ar</a>
+                                        <a class="navbar-link text-dark">Avellaneda 351</a>
+                                        <a class="navbar-link text-dark">+54 249 4447899</a>
+
+                                    <a href="#" class="navbar-link text-dark text-right" data-toggle="modal" data-target="#contactoModal">
+                                       <h2 style="margin-bottom: 0%;"><i class="fas fa-qrcode"></i></h2>
+                                    </a>
+                                </nav>
+
+                                <div class="modal fade" id="contactoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            <div class="row modal-body justify-content-center">
+                                                <img src="images/qrcode.png" style="width: 70%" class="img-fluid">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>

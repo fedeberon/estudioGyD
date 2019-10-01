@@ -21,17 +21,23 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <style>
-       <!--html, body {
-            /*overflow: hidden;*/
+        html, body {
             background-color: #383838;
             color: #000000;
             font-family: 'Nunito', sans-serif;
         }
-
+        .background-image {
+            background: url('/images/home-background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            border-radius: 0px;
+            margin: 0;
+        }
     </style>
+
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="background-image">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
