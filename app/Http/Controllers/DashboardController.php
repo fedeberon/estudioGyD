@@ -20,4 +20,9 @@ class DashboardController extends Controller
         return view('/dashboard/linksEmbebidos/linkPremium');
     }
 
+    public function cotizacion()
+    {
+        return view('/dashboard/cotizacion');
+    }
+
 }

@@ -61,13 +61,21 @@
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar sesion') }}</a>
                             </li>
                             @if (Route::has('register'))
-                                <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarse') }}</a>
-                                </li>
-                            @endif
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('register') }}">{{ __('Registrarse') }}</a>
+                            </li>
+                        @endif
+
                         @else
+
+                        @if(Auth::user()->role_id != '2')
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-warning" data-toggle="modal" role="button" data-target="#subscribirseAPremium" >Subscribirse a Premium</a>
+                        </li>
+                        @endif
+
                             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
 
@@ -86,6 +94,53 @@
                         @endguest
                     </ul>
                 </div>
+
+                <div class="modal fade" id="subscribirseAPremium" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title" id="exampleModalLabel"><span class="badge badge-warning">Subscribete a nuestro servicio premium</span></h2>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <h4><span class="badge badge-success">Ventajas del servicio premium</span></h4>
+                                <ul>
+                                    <li>
+                                        Acceso sin restricciones de Superficie
+                                    </li>
+
+                                    <li>
+                                        Sin limitaci&oacute;n de cantidad de consultas
+                                    </li>
+
+                                    <li>
+                                        Por el mismo costo, se brinda el acceso a dos usuarios
+                                    </li>
+
+                                    <li>
+                                        Importantes bonificaciones por paquetes de usuarios
+                                    </li>
+
+                                    <li>
+                                        Soporte t&eacute;cnico 24/7
+                                    </li>
+
+                                    <li>
+                                        Personalizaci&oacute;n del acceso
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex justify-content-center modal-footer">
+                                    <a href="/cotizacion" class="btn btn-success">M&aacute;s informaci&oacute;n</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </nav>
 
