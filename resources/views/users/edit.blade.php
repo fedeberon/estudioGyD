@@ -6,29 +6,32 @@
         <div class="card col-md-6">
             <div class="card-header">Editar usuarios</div>
             <br>
-            <form action="{{url('tasks', [$user->id])}}" method="POST">
+
+
+            <form method="POST" action="{{ route('users.update',$user->id) }}">
                 <input type="hidden" name="_method" value="PUT">
                 {{ csrf_field() }}
                 <div class="row form-group justify-content-around">
                     <label class="col-md-2">Nombre:</label>
-                    <input type="text" value="{{$user->name}}"betw class="form-control col-md-8" placeholder="Nombre">
+                    <input type="text" value="{{$user->name}}" name="name" class="form-control col-md-8" placeholder="Nombre">
                 </div>
                 <hr>
                 <div class="row form-group justify-content-around">
                     <label class="col-md-2">Email:</label>
-                    <input type="text" value="{{$user->email}}" class="form-control col-md-8"  placeholder="Email">
+                    <input type="text" value="{{$user->email}}" name="email" class="form-control col-md-8"  placeholder="Email">
                 </div>
                 <hr>
+
                 <div class="row form-group justify-content-around">
-                    <label class="col-md-2">Rol:</label>
-                        <select class="form-control col-md-8">
-                            <option value="3">User</option>
-                            <option value="2">Operator</option>
-                            <option value="1">Admin</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="form-group btn btn-primary">Guardar</button>
+                    Rol:
+                    <div><input type="radio" name="role_id" value="1"> Admin </div>
+                    <div><input type="radio" name="role_id" value="2"> Premium </div>
+                    <div><input type="radio" name="role_id" value="3"> Free </div>
                 </div>
+
+                <br>
+
+                <button type="submit" class="btn btn-primary">Guardar</button>
                 @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>

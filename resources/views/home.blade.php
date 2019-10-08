@@ -27,7 +27,7 @@
                                                     <p class="card-text">ver y editar usuarios</p>
                                                 </div>
                                                 <div class="col-12 text-center pt-3">
-                                                    <a class="btn btn-primary btn-block" href="/index">Usuarios <i class="fas fa-chevron-right"></i></a>
+                                                    <a class="btn btn-primary btn-block" href="{{action('UsersController@index')}}">Usuarios <i class="fas fa-chevron-right"></i></a>
                                                 </div>
                                             </div>
                                         </div>

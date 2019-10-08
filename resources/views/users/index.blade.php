@@ -25,7 +25,7 @@
                                         <td>{{$usr->name}}</td>
                                         <td>{{$usr->email}}</td>
                                         <td>{{$usr->role_id}}</td>
-                                        <td><!--<a href="/users/edit">--><i class="far fa-edit" style="font-size: 18px"></i><!--</a>--></td>
+                                        <td><a href="{{action('UsersController@edit', $usr->id)}}"><i class="far fa-edit" style="font-size: 18px"></i></a></td>
                                     </tr>
                                 @endforeach
                             </tbody>

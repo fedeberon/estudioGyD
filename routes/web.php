@@ -29,6 +29,7 @@ Route::get('/cotizacion', 'DashboardController@cotizacion')->name('cotizacion');
 Route::post('/contactar', 'EmailController@contact')->name('contact');
 
 
+
 /*ERRORS*/
 Route::get('/403', function () { return view('/errors/403'); });
 
@@ -36,11 +37,9 @@ Route::get('/403', function () { return view('/errors/403'); });
 
 /*ADMIN PERMISSIONS*/
 Route::group(['middleware' => 'admin'], function () {
-    Route::get('/index', 'UsersController@index')->name('index');
     Route::get('/premium', 'DashboardController@linkPremium')->name('premium');
     Route::get('/regular', 'DashboardController@linkRegular')->name('regular');
-    //Route::get('/edit', 'UsersController@edit')->name('edit');
-    //Route::get('/show', 'UsersController@show')->name('show');
+    Route::resource('users', 'UsersController');
 });
 
 
