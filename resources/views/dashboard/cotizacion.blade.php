@@ -4,20 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Solicitar Cotiza&oacute;n</title>
+    <title>Solicitar Cotizaci&oacute;n</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
-
-
-
 </head>
 <body>
 <div class="jumbotron">
@@ -52,27 +48,21 @@
             </div>
         </div>
 
-
-
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="soporte" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
-                <div class="modal-content">
+                <div class="modal-content align-items-center">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Su peticion ha sido enviada correctamente</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Su peticion esta siendo procesada.</h5>
                     </div>
                     <div class="modal-body">
-                        Espere a ser redireccionado
+                        <img src="images/loading.gif" style="width: 300px;">
+                        <p>Por favor espere a ser redireccionado...</p>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
 </body>
-
 <script>
-
     var email = document.getElementById("mail");
 
     email.addEventListener("keyup", function (event) {
@@ -85,6 +75,4 @@
     });
 
 </script>
-
-
 </html>

@@ -77,7 +77,7 @@
                                         <a class="navbar-link text-primary pr-5" href="http://facebook.com/estudiogy.d" target="_blank"><i class="fab fa-facebook "></i></a>
                                         <a class="navbar-link text-danger pr-5" href="http://www.youtube.com/user/estudiogyd" target="_blank"><i class="fab fa-youtube"></i></a>
                                         <a class="navbar-link text-secondary pr-5" href="https://www.linkedin.com/in/mariano-delbuono-b95b1b22/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                                        <!--<a class="navbar-link text-success" href="https://wa.me/542494447899" target="_blank"><i class="fab fa-whatsapp"></i></a>-->
+                                        <a class="navbar-link text-success" href="https://wa.me/5492494697996?text=Hola,%20necesito%20hacerles%20una%20consulta..." target="_blank"><i class="fab fa-whatsapp"></i></a>
                                     </h2>
 
                                         <a class="navbar-link text-dark">info@estudiogyd.com.ar</a>

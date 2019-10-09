@@ -9,10 +9,26 @@ class EmailController extends Controller
 {
     public function contact(Request $request)
     {
-        $subject = "solicitar cotizacion";
-        $for = "elrecki@gmail.com";
-        Mail::send('/dashboard/email', $request->all(), function ($msj) use ($subject, $for) {
-            $msj->from("tucorreo@gmail.com", "NombreQueApareceráComoEmisor");
+        $subject = "Solicitar cotizacion";
+        $for = "contacto@estudiogyd.com.ar";
+        $from = $request->get('mail');
+
+        Mail::send('/dashboard/email', $request->all(), function ($msj) use ($subject, $for, $from) {
+            $msj->from($from, "Consulta de cotizacion");
+            $msj->subject($subject);
+            $msj->to($for);
+        });
+        return redirect('/home');
+    }
+
+    public function soporte(Request $request)
+    {
+        $subject = "Soporte tecnico";
+        $for = "info@estudiogyd.com.ar";
+        $from = $request->get('mail');
+
+        Mail::send('/dashboard/soporte-email', $request->all(), function ($msj) use ($subject, $for, $from) {
+            $msj->from($from, "Consulta de soporte tecnico");
             $msj->subject($subject);
             $msj->to($for);
         });

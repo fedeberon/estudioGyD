@@ -25,4 +25,8 @@ class DashboardController extends Controller
         return view('/dashboard/cotizacion');
     }
 
+    public function soporte()
+    {
+        return view('/dashboard/soporte');
+    }
 }

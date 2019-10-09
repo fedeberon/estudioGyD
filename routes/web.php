@@ -39,6 +39,8 @@ Route::get('/403', function () { return view('/errors/403'); });
 Route::group(['middleware' => 'admin'], function () {
     Route::get('/premium', 'DashboardController@linkPremium')->name('premium');
     Route::get('/regular', 'DashboardController@linkRegular')->name('regular');
+    Route::get('/soporte', 'DashboardController@soporte')->name('soporte');
+    Route::post('/soporte', 'EmailController@soporte')->name('soporte');
     Route::resource('users', 'UsersController');
 });
 
@@ -47,6 +49,7 @@ Route::group(['middleware' => 'admin'], function () {
 /*PREMIUM PERMISSIONS*/
 Route::group(['middleware' => 'premium'], function () {
     Route::get('/premium', 'DashboardController@linkPremium')->name('premium');
+    Route::get('/soporte', 'DashboardController@soporte')->name('soporte');
 });
 
 
