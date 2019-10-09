@@ -12,7 +12,7 @@
           integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
-<body style="height: 90%;">
+<body style="height: 85%;">
 <div class="h-100">
     <script type="text/javascript">// <![CDATA[
         window.__atb_b2b_root = {};
@@ -32,14 +32,21 @@
         })();
         // ]]></script>
 
-    <div class="container row">
-        <div class="col-3 ml-4 mr-5">
-            <a href="/home" class="btn-lg btn-block btn btn-primary m-2"><i class="fas fa-chevron-left"></i> Home</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item col-2">
+                    <a href="/home" class="btn-block btn btn-primary mt-2"><i class="fas fa-chevron-left"></i> Home</a>
+                </li>
+                <li class="nav-item col-2">
+                    <a class="nav-link mt-2" href="#">Terminos y condiciones</a>
+                </li>
+                <li class="nav-item col-7">
+                    <img src="/images/barra-vigor.jpeg">
+                </li>
+            </ul>
         </div>
-        <div class="col-8">
-            <img src="/images/barra-vigor.jpeg">
-        </div>
-    </div>
+    </nav>
 </div>
 </body>
 </html>
