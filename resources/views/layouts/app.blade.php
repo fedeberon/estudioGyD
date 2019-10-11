@@ -74,6 +74,10 @@
                         </li>
                         @endif
 
+                        <li class="nav-item">
+                            <a class="nav-link" href="/terminosCondiciones" target="_blank">Terminos y condiciones</a>
+                        </li>
+
                         @if(Auth::user()->role_id != '3')
                         <li class="nav-item">
                             <a href="/soporte" class="nav-link">Soporte tecnico</a>

@@ -39,7 +39,7 @@
                     <a href="/home" class="btn-block btn btn-primary mt-2"><i class="fas fa-chevron-left"></i> Home</a>
                 </li>
                 <li class="nav-item col-2">
-                    <a class="nav-link mt-2" href="#">Terminos y condiciones</a>
+                    <a class="nav-link mt-2" href="/terminosCondiciones"  target="_blank">Terminos y condiciones</a>
                 </li>
                 <li class="nav-item col-7">
                     <img src="/images/barra-vigor.jpeg">
@@ -47,7 +47,6 @@
             </ul>
         </div>
     </nav>
-
 </div>
 </body>
 </html>

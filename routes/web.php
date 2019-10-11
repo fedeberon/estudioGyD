@@ -26,6 +26,7 @@ Route::get('/', function () {
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/tutoriales', 'DashboardController@tutoriales')->name('tutoriales');
 Route::get('/cotizacion', 'DashboardController@cotizacion')->name('cotizacion');
+Route::get('/terminosCondiciones', 'HomeController@terminosCondiciones')->name('terminosCondiciones');
 Route::post('/contactar', 'EmailController@contact')->name('contact');
 
 
