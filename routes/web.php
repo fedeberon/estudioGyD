@@ -17,6 +17,8 @@ Auth::routes(['verify' => true]);
 Route::get('/', function () {return view('welcome');});
 Route::get('/explorer', function () {return view('explorer');});
 Route::get('/explorerpro', function () {return view('explorerpro');});
+Route::get('/ganaderia', function () {return view('ganaderiaDePrecision');});
+Route::get('/agricultura', function () {return view('agriculturaDePrecision');});
 Route::get('/consulta', function () {return view('/dashboard/consulta');});
 
 

@@ -14,8 +14,7 @@
                 <h2 class="text-white montserrat400">DRONE</h2>
                 <h2 class="text-white montserrat700">EXPLORER PRO</h2>
                 <h4 class="text-white montserrat300">
-                    Primer avión no tripulado de orígen argentino, con fines agronómicos
-                    sistema aéreo no tripulado EXPLORER: robustez, confiabilidad y alto rendimiento.
+                    Primer avión no tripulado de origen argentino, con fines agronómicos, sistema aéreo no tripulado EXPLORER: robustez, confiabilidad y alto rendimiento.
                 </h4>
                 </p>
             </div>

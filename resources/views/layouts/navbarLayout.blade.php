@@ -158,12 +158,12 @@
                                 </li>
 
                                 <li class="nav-item dropdown pr-2">
-                                    <a class="btn btn-light dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="btn btn-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         SERVICIOS
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="/agricultura">Agricultura de Precisi&oacute;n</a>
+                                        <a class="dropdown-item" href="/ganaderia">Ganader&iacute;a de Precisi&oacute;n</a>
                                         <a class="dropdown-item" href="#">Something else here</a>
                                     </div>
                                 </li>
