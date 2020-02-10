@@ -14,7 +14,9 @@
                 <h2 class="text-white montserrat400">DRONE</h2>
                 <h2 class="text-white montserrat700">EXPLORER PRO</h2>
                 <h4 class="text-white montserrat300">
-                    Primer avión no tripulado de origen argentino, con fines agronómicos, sistema aéreo no tripulado EXPLORER: robustez, confiabilidad y alto rendimiento.
+                    El Xplorer Pro es la combinación perfecta entre costo y practicidad ya que es un equipo
+                    robusto, liviano, rápido de poner en vuelo sin muchas partes para ensamblar y con una capaceidad
+                    de carga más que interesante.
                 </h4>
                 </p>
             </div>
@@ -39,16 +41,13 @@
     <div class="row d-flex justify-content-center">
         <div class="col-md-10">
             <p class="montserrat400">
-                El Xplorer Pro es la combinación perfecta entre costo y practicidad ya que es un equipo
-                robusto, liviano, rápido de poner en vuelo sin muchas partes para ensamblar y con una capaceidad
-                de carga más que interesante.
-            </p>
-
-            <p class="montserrat400 pt-4">
                 Este equipo es ideal para la realización de relevamientos en donde debemos movernos
                 constantemente a diferentes lotes dentro de una zona, ya que por su tamaño podemos transportarlo
                 sin necesidad de desmontarlo, esto hace que la operación de relevamiento sea mucho más eficiente,
                 además al no requerir de una lanzadera, esto facilita aún más las tareas.
+            </p>
+
+            <p class="montserrat400 pt-4">
                 Su autonomía, capacidad de carga y su fuselaje robusto, lo hacen perfecto para relevamientos de campos
                 logrando información de excelente calidad.
             </p>

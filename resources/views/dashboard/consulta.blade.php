@@ -49,6 +49,10 @@
                             <label for="name">Nombre</label>
                             <input class="form-control" name="nombre" type="text" required>
                         </div>
+                        <div class="form-group col-7">
+                            <label for="name">Telefono</label>
+                            <input class="form-control" name="telefono" type="text" required>
+                        </div>
                         <div class="form-group col-12">
                             <label for="name">Consulta</label>
                             <textarea class="form-control" style="height: 200px;" name="consulta" type="text" required></textarea>

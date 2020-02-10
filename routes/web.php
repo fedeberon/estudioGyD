@@ -15,11 +15,21 @@ Auth::routes(['verify' => true]);
 
 /*NO PROTEGIDAS*/
 Route::get('/', function () {return view('welcome');});
+Route::get('/empresa', function () {return view('empresa');});
+Route::get('/contacto', function () {return view('contacto');});
+Route::get('/drones', function () {return view('drones');});
 Route::get('/explorer', function () {return view('explorer');});
 Route::get('/explorerpro', function () {return view('explorerpro');});
+Route::get('/consulta', function () {return view('/dashboard/consulta');});
 Route::get('/ganaderia', function () {return view('ganaderiaDePrecision');});
 Route::get('/agricultura', function () {return view('agriculturaDePrecision');});
-Route::get('/consulta', function () {return view('/dashboard/consulta');});
+Route::get('/inteligencia', function () {return view('inteligenciaArtificial');});
+Route::get('/agrimensura', function () {return view('agrimensura');});
+Route::get('/mineriaOilGas', function () {return view('mineriaOilGas');});
+Route::get('/administracionSiembras', function () {return view('administracionSiembras');});
+Route::get('/servicioDrones', function () {return view('servicioDrones');});
+Route::get('/realidadVirtual', function () {return view('realidadVirtual');});
+Route::get('/agriculturaDigital', function () {return view('agriculturaDigital');});
 
 
 

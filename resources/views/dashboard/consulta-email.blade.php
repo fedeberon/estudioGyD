@@ -12,6 +12,7 @@
 </head>
 <body>
 <h2>Nombre: {{$nombre}}</h2>
+<h2>Telefono: {{$telefono}}</h2>
 <h2>E-Mail: {{$mail}}</h2>
 <h2>Consulta: {{$consulta}}</h2>
 </body>

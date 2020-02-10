@@ -27,8 +27,12 @@
             font-family: 'Nunito', sans-serif;
         }
         .background-image {
-            background: url('/images/home-background.jpg') no-repeat center center fixed;
+            background: url('/images/home-background.jpg');
+            background-position: center, center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             background-size: cover;
+            background-attachment: scroll;
             height: 100vh;
             border-radius: 0px;
             margin: 0;

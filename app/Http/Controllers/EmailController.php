@@ -42,7 +42,7 @@ class EmailController extends Controller
         $from = $request->get('mail');
 
         Mail::send('/dashboard/consulta-email', $request->all(), function ($msj) use ($subject, $for, $from) {
-            $msj->from($from, "Consulta drones");
+            $msj->from($from, "Consulta EstudioG&D");
             $msj->subject($subject);
             $msj->to($for);
         });
