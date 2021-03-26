@@ -20,91 +20,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <link href="/css/fonts.css" type="text/css" rel="stylesheet">
-
-    <style>
-
-        body{
-            background-color: #d9d9d9;
-            font-family: 'Barlow Condensed', sans-serif;
-            font-weight:400;
-        }
-
-        .logo{
-            margin-bottom: -70px;
-            z-index: 70;
-        }
-
-        .ml-6 {
-            margin-left: 4rem!important;
-        }
-
-        .mt-6 {
-            margin-top: 4rem!important;
-        }
-
-        .pl-6 {
-            padding-left: 4rem!important;
-        }
-
-        .pt-6 {
-            padding-top: 4rem!important;
-        }
-
-        .pb-7 {
-            padding-bottom: 5rem!important;
-        }
-
-        .pb-8 {
-            padding-bottom: 6rem!important;
-        }
-
-        .pr-6 {
-            padding-right: 4rem!important;
-        }
-
-        .pt-7 {
-            padding-top: 5rem!important;
-        }
-
-        .pb-10 {
-            padding-bottom: 20rem!important;
-        }
-
-        .bg-video{
-            background-image: url("/maquetacion/general/bg-videos.png");
-            background-repeat: no-repeat;
-        }
-
-        .bg-comp{
-            background-image: url("/maquetacion/general/bg-comparativa-modelos.jpg");
-            background-repeat: no-repeat;
-            background-color: #EBEBEB;
-        }
-
-        .bg-servicios-footer{
-            background-image: url("/maquetacion/general/bg-footer-menu.jpg");
-            background-repeat: no-repeat;
-            background-color: #67ae5e;
-        }
-
-        .bg-contacto-footer{
-            background-image: url("/maquetacion/general/bg-footer.jpg");
-            background-repeat: no-repeat;
-        }
-
-        .bg-intro{
-            background-color: #191c2f;
-        }
-
-        .bg-nav{
-
-            background-color: #F5F5F5;
-        }
-
-        .bg-nav2{
-            background-color: #F8F9FA;
-        }
-    </style>
+    <link href="/css/all.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <div class="container col-md-12 bg-nav2">
@@ -124,7 +40,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-item nav-link"><i class="fas fa-envelope"></i> info@estudiogyd.com.ar</a>
+                                <a href="mailto:info@estudiogyd.com.ar" class="nav-item nav-link"><i class="fas fa-envelope"></i> info@estudiogyd.com.ar</a>
                             </li>
                         </ul>
                     </div>
@@ -158,13 +74,19 @@
                                 </li>
 
                                 <li class="nav-item dropdown pr-2">
-                                    <a class="btn btn-light dropdown-toggle disabled" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <a class="btn btn-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         SERVICIOS
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="/agricultura">Agricultura de Precisi&oacute;n</a>
+                                        <a class="dropdown-item" href="/ganaderia">Ganader&iacute;a de Precisi&oacute;n</a>
+                                        <a class="dropdown-item" href="/inteligencia">Inteligencia Atificial</a>
+                                        <a class="dropdown-item" href="/agrimensura">Agrimensura</a>
+                                        <a class="dropdown-item" href="/mineriaOilGas">Miner&iacute;a Oil&GAs</a>
+                                        <a class="dropdown-item" href="/administracionSiembras">Administrador de Siembras</a>
+                                        <a class="dropdown-item" href="/servicioDrones">Drones como servicio</a>
+                                        <a class="dropdown-item" href="/realidadVirtual">Realidad Virtual</a>
+                                        <a class="dropdown-item" href="/agriculturaDigital">Agricultura Digital</a>
                                     </div>
                                 </li>
 
@@ -173,18 +95,18 @@
                                         PRODUCTOS
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="/">Drones</a>
+                                        <a class="dropdown-item" href="/drones">Drones</a>
                                         <a class="dropdown-item" href="/explorerpro">Explorer Pro</a>
                                         <a class="dropdown-item" href="/explorer">Explorer</a>
                                     </div>
                                 </li>
 
                                 <li class="nav-item active pr-2">
-                                    <a class="btn btn-light disabled" href="#">EMPRESA</a>
+                                    <a class="btn btn-light" href="/empresa">EMPRESA</a>
                                 </li>
 
                                 <li class="nav-item active pr-2">
-                                    <a class="btn btn-light disabled" href="#">CONTACTO</a>
+                                    <a class="btn btn-light" href="/contacto">CONTACTO</a>
                                 </li>
                             </ul>
                         </div>
@@ -288,7 +210,7 @@
 
             <div class="col-md-3 pt-4">
                     <div>
-                        <p class="text-secondary"><i class="far fa-envelope"></i> info@estudiogyd.com.ar </p>
+                        <a href="mailto:info@estudiogyd.com.ar" class="text-secondary"><i class="far fa-envelope"></i> info@estudiogyd.com.ar </a>
                     </div>
             </div>
 
