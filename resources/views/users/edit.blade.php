@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.homeLayout')
 
 @section('content')
 <div class="container">
@@ -19,7 +19,12 @@
                     <input type="text" value="{{$user->email}}" name="email" class="form-control col-md-8"  placeholder="Email">
                 </div>
                 <hr>
-
+                <div class="row form-group justify-content-around">
+                    Newsletter:
+                    <div><input type="radio" name="suscrito" value="1"> Si </div>
+                    <div><input type="radio" name="suscrito" value="0"> No </div>
+                </div>
+                <hr>
                 <div class="row form-group justify-content-around">
                     Rol:
                     <div><input type="radio" name="role_id" value="1"> Admin </div>

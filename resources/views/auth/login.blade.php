@@ -1,9 +1,23 @@
-@extends('layouts.app')
+@extends('layouts.app-verify')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                        <h4 class="modal-title"><img src="\images\general\logo-top.png" height="60" width="60"> Bienvenido</h4>
+                </div>
+                <div class="card-body">
+                    <p>
+                        Ud. est&aacute; ingresando a la plataforma gratuita de im&aacute;genes satelitales de G&D que le permitir&aacute; poder evaluar el potencial productivo de establecimientos
+                        agr&iacute;colas  y ganaderos o detectar problemas tanto sanitarios como nutricionales de 
+                        cualquier  cultivo en cualquier momento de su ciclo sin importar el lugar del mundo en que este se encuentre.
+                    </p>
+                </div>
+                    <div class="card-footer">No estas registrado?&nbsp;<a href="/register"> Crear una cuenta</a></div>
+                </div>
+            </div>
             <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
@@ -57,6 +71,12 @@
                                     {{ __('Iniciar sesion') }}
                                 </button>
 
+                                <hr>
+
+                                <a class="btn btn-link" href="{{ route('register') }}">
+                                    {{ __('Aun no estoy registrado') }}
+                                </a>
+
                                 @if (Route::has('password.request'))
                                     <a class="btn btn-link" href="{{ route('password.request') }}">
                                         {{ __('Olvidaste tu contraseña?') }}
@@ -64,6 +84,7 @@
                                 @endif
                             </div>
                         </div>
+
                     </form>
                 </div>
             </div>

@@ -3,14 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Routing\Redirector;
 use Mail;
 
 class EmailController extends Controller
 {
     public function cotizacion(Request $request)
     {
-        $subject = "Solicitar cotizacion";
-        $for = "joa1499@gmail.com";
+        $subject = "Consulta de cotizacion";
+        $for = "info@estudiogyd.com.ar";
         $from = $request->get('mail');
 
         Mail::send('/dashboard/email', $request->all(), function ($msj) use ($subject, $for, $from) {
@@ -18,27 +19,31 @@ class EmailController extends Controller
             $msj->subject($subject);
             $msj->to($for);
         });
-        return view('home');
+        echo '<script type="text/javascript">'
+        , 'history.go(-2);'
+        , '</script>';
     }
 
     public function soporte(Request $request)
     {
         $subject = "G&D Consulta Plataforma Premium";
-        $for = "joa1499@gmail.com";
+        $for = "info@estudiogyd.com.ar";
         $from = $request->get('mail');
 
         Mail::send('/dashboard/soporte-email', $request->all(), function ($msj) use ($subject, $for, $from) {
-            $msj->from($from, "Consulta de soporte tecnico");
+            $msj->from($from, "G&D Consulta Plataforma Premium");
             $msj->subject($subject);
             $msj->to($for);
         });
-        return view('home');
+        echo '<script type="text/javascript">'
+        , 'history.go(-2);'
+        , '</script>';
     }
 
     public function consulta(Request $request)
     {
-        $subject = "Consulta drones";
-        $for = "joa1499@gmail.com";
+        $subject = "Consulta EstudioG&D";
+        $for = "info@estudiogyd.com.ar";
         $from = $request->get('mail');
 
         Mail::send('/dashboard/consulta-email', $request->all(), function ($msj) use ($subject, $for, $from) {
@@ -46,6 +51,8 @@ class EmailController extends Controller
             $msj->subject($subject);
             $msj->to($for);
         });
-        return view('welcome');
+        echo '<script type="text/javascript">'
+        , 'history.go(-2);'
+        , '</script>';
     }
 }

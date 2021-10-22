@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +10,7 @@
     <script src="{{ asset('js/app.js') }}"></script>
 
     <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
@@ -21,8 +21,50 @@
 
     <link href="/css/fonts.css" type="text/css" rel="stylesheet">
     <link href="/css/all.css" type="text/css" rel="stylesheet">
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125792456-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125792456-1');
+    </script>
+
+
+    <script>
+        $(window).scroll(function() {
+            var height = $(window).scrollTop();
+            if (height > 100) {
+                $('#goToHome').fadeIn();
+            } else {
+                $('#goToHome').fadeOut();
+            }
+        });
+
+        $(document).ready(function() {
+            $("#goToHome").click(function(event) {
+                event.preventDefault();
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+            });
+
+        });
+    </script>
 </head>
 <body>
+    <a id="goToHome" title="Volver arriba" href="#">&#10148;</a>
+
+    <div class="d-md-none">
+        <a id="stickyWp" title="Consultanos por WhatsApp" href="https://wa.me/5492494697996?text=Hola,%20necesito%20hacerles%20una%20consulta..." target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <div class="d-none d-md-block">
+        <a id="stickyWp" title="Consultanos por WhatsApp" href="https://web.whatsapp.com/send?phone=+5492494697996&amp;text=Hola, necesito hacerles una consulta..." target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
     <div class="container col-md-12 bg-nav2">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="row">
@@ -31,16 +73,24 @@
 
                     <div class="col-md-7 float-right">
                         <ul class="navbar-nav float-right">
-                            <li class="nav-item pr-4">
-                                <a class="btn btn-light" href="https://facebook.com/estudiogy.d" target="_blank"><i class="fab fa-facebook"></i> SEGUINOS</a>
+                            <li class="nav-item pr-3">
+                                <a class="btn btn-light" href="https://facebook.com/estudiogy.d" target="_blank"><i class="fab fa-facebook"></i> FACEBOOK</a>
                             </li>
 
-                            <li class="nav-item pr-4">
+                            <li class="nav-item pr-3">
+                                <a class="btn btn-light" href="http://www.youtube.com/user/estudiogyd" target="_blank"><i class="fab fa-youtube"></i> YOUTUBE</a>
+                            </li>
+
+                            <li class="nav-item pr-3">
+                                <a class="btn btn-light" href="https://www.linkedin.com/in/mariano-delbuono-b95b1b22/" target="_blank"><i class="fab fa-linkedin"></i> LINKEDIN</a>
+                            </li>
+
+                            <li class="nav-item pr-3">
                                 <a class="btn btn-light d-none d-md-block" href="https://web.whatsapp.com/send?phone=5492494697996&amp;text=Hola, necesito hacerles una consulta..." target="_blank"><i class="fab fa-whatsapp"></i> +549 249 4697996</a>
                             </li>
 
                             <li class="nav-item">
-                                <a href="mailto:info@estudiogyd.com.ar" class="nav-item nav-link"><i class="fas fa-envelope"></i> info@estudiogyd.com.ar</a>
+                                <a href="mailto:info@estudiogyd.com.ar" class="btn btn-light"><i class="fas fa-envelope"></i> info@estudiogyd.com.ar</a>
                             </li>
                         </ul>
                     </div>
@@ -57,6 +107,10 @@
                         <a class="btn btn-light" href="http://facebook.com/estudiogy.d" target="_blank"><i class="fab fa-facebook"></i></a>
 
                         <a class="btn btn-light" href="https://wa.me/5492494697996?text=Hola,%20necesito%20hacerles%20una%20consulta..." target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+                        <a class="btn btn-light" href="http://www.youtube.com/user/estudiogyd" target="_blank"><i class="fab fa-youtube"></i></a>
+
+                        <a class="btn btn-light" href="https://www.linkedin.com/in/mariano-delbuono-b95b1b22/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
 
@@ -64,11 +118,11 @@
                     <div class="row">
 
                         <div class="col-md-4 rounded-circle navbar logo">
-                            <img src="\maquetacion\general\logo-top.png" height="145" width="145">
+                            <a href="/"><img src="\images\general\logo-top.png" height="145" width="145"></a>
                         </div>
 
-                        <div class="col-md-7 collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mt-6 barlow600">
+                        <div class="col-md-7 paddingResp collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mt-3 barlow600">
                                 <li class="nav-item active pr-2">
                                     <a class="btn btn-light" href="/">INICIO</a>
                                 </li>
@@ -78,15 +132,15 @@
                                         SERVICIOS
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="/administracionSiembras">Administraci&oacute;n de Siembras</a>
                                         <a class="dropdown-item" href="/agricultura">Agricultura de Precisi&oacute;n</a>
-                                        <a class="dropdown-item" href="/ganaderia">Ganader&iacute;a de Precisi&oacute;n</a>
-                                        <a class="dropdown-item" href="/inteligencia">Inteligencia Atificial</a>
-                                        <a class="dropdown-item" href="/agrimensura">Agrimensura</a>
-                                        <a class="dropdown-item" href="/mineriaOilGas">Miner&iacute;a Oil&GAs</a>
-                                        <a class="dropdown-item" href="/administracionSiembras">Administrador de Siembras</a>
-                                        <a class="dropdown-item" href="/servicioDrones">Drones como servicio</a>
-                                        <a class="dropdown-item" href="/realidadVirtual">Realidad Virtual</a>
                                         <a class="dropdown-item" href="/agriculturaDigital">Agricultura Digital</a>
+                                        <a class="dropdown-item" href="/agrimensura">Agrimensura</a>
+                                        <a class="dropdown-item" href="/servicioDrones">Drones como servicio</a>
+                                        <a class="dropdown-item" href="/ganaderia">Ganader&iacute;a de Precisi&oacute;n</a>
+                                        <a class="dropdown-item" href="/inteligencia">Inteligencia Artificial</a>
+                                        <a class="dropdown-item" href="/mineriaOilGas">Miner&iacute;a Oil&GAs</a>
+                                        <a class="dropdown-item" href="/realidadVirtual">Realidad Virtual</a>
                                     </div>
                                 </li>
 
@@ -96,8 +150,8 @@
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="/drones">Drones</a>
-                                        <a class="dropdown-item" href="/explorerpro">Explorer Pro</a>
                                         <a class="dropdown-item" href="/explorer">Explorer</a>
+                                        <a class="dropdown-item" href="/explorerpro">Explorer Pro</a>
                                     </div>
                                 </li>
 
@@ -111,11 +165,11 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-2 navbar mt-6 d-flex justify-content-around">
+                    <div class="col-md-2 navbar mt-3 d-flex justify-content-around">
                         <ul class="navbar-nav">
                             <li class="nav-item dropdown">
-                                <a class="btn btn-outline-success dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <i class="far fa-user"></i> ACCESO
+                                <a class="btn btn-outline-success dropdown-toggle text-left" href="#" title="Plataforma Web" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="far fa-user"></i> ACCESO<br>PLATAFORMA
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     @if (Route::has('login'))
@@ -147,18 +201,15 @@
                 <ul class="list-unstyled text-justify row col-md-7 float-left">
                     <li class="list-item">
                         <h5 class="barlow400"><span class="barlow700">LA MEJOR OPCIÓN DEL MERCADO</span><br>
-                            Las caracteristicas tecnicas del Explorer unidas a la experiencia del Explorer unidas a las experiencias del
-                            Estudio G&D hacen de esta plataforma a&eacute;rea no tripulada la mejor
-                            opci&oacute;n del mercado,
-                            no solo por sus capacidades o su calidad sino también por su reducido costo, muy por debajo de cualquier UAV del mercado.
-                        </h5>
+                            El paquete de servicios de G&D es el más completo y provee soluciones innovadoras para mejorar todos los aspectos de su empresa a partir de una mejora en los procesos, aumento de la eficiencia y aporta información clave para la toma de decisiones basadas en datos objetivos.                        </h5>
                     </li>
                 </ul>
 
                 <ul class="list-unstyled text-justify row col-md-4 float-right">
                     <li class="list-item">
                         <h5 class="montserrat500">CONTACTENOS</h5>
-                        <h4 class="text-secondary"><i class="fab fa-whatsapp"></i> 0249 444-7899<br><i class="far fa-envelope"></i> info@estudiogyd.com.ar </h4>
+                        <a href="https://web.whatsapp.com/send?phone=5492494697996&amp;text=Hola, necesito hacerles una consulta..." target="_blank"><h4 class="text-secondary"><i class="fab fa-whatsapp"></i> +5492494697996</h4></a>
+                        <a href="mailto:info@estudiogyd.com.ar"><h4 class="text-secondary"><i class="far fa-envelope"></i> info@estudiogyd.com.ar</h4></a>
                     </li>
                 </ul>
             </div>
@@ -176,17 +227,17 @@
                     <li class="list-item col-md-6">AGRICULTURA DIGITAL</li>
                     <li class="list-item col-md-6">REALIDAD VIRTUAL</li>
                     <li class="list-item col-md-6">OIL & GAS</li>
-                    <li class="list-item col-md-6">DRONES TANTO SERVICIO COMO FABRICACIÓN</li>
+                    <li class="list-item col-md-6">SERVICIO DE DRONES</li>
                     <li class="list-item col-md-6">AGRIMENSURA</li>
                     <li class="list-item col-md-6">MINERIA</li>
                 </ul>
 
                 <ul class="list-unstyled list-group text-justify row text-white col-md-4 float-right">
                     <li class="list-item montserrat600">PRODUCTOS</li>
-                    <li class="list-item">AGRICULTURA Y GANADERÍA DE PRECISIÓN</li>
-                    <li class="list-item">AGRICULTURA DIGITAL</li>
-                    <li class="list-item">OIL & GAS</li>
-                    <li class="list-item">AGRIMENSURA</li>
+                    <li class="list-item">DRONE EXPLORER</li>
+                    <li class="list-item">DRONE EXPLORER PRO</li>
+                    <li class="list-item"></li>
+                    <li class="list-item"></li>
                 </ul>
             </div>
         </div>
@@ -197,14 +248,14 @@
             <div class="col-md-3 pl-6">
                 <div class="pt-3 pb-3">
                     <div>
-                        <img src="\maquetacion\general\logo-footer.png" width="170px" height="70px">
+                        <img src="\images\general\logo-footer.png" width="170px" height="70px">
                     </div>
                 </div>
             </div>
 
             <div class="col-md-3 pt-4">
                     <div>
-                        <p class="text-secondary"><i class="fab fa-whatsapp"></i> 0249 444-7899 </p>
+                        <a class="text-secondary" href="https://web.whatsapp.com/send?phone=5492494697996&amp;text=Hola, necesito hacerles una consulta..." target="_blank"><i class="fab fa-whatsapp"></i> +5492494697996</a>
                     </div>
             </div>
 
@@ -223,8 +274,9 @@
     </div>
 
     <div class="container col-md-12 bg-white">
-        <div class="row pl-6 pt-4 text-secondary">
-            <div><p>G&D. Ingenieria Digital. Todos los derechos reservados</p></div>
+        <div class="row">
+            <div class="col-md-10 text-secondary copy">G&amp;D. Ingenieria Digital. Todos los derechos reservados</div>
+            <div class="col-md-2 cont-logo-zurbrand"><a href="https://www.zurbrand.com/?utm_source=gydingenieria&utm_medium=firma_site" class="link-zurbrand" title="Zurbrand | Diseño web profesional" target="_blank"><img src="https://www.zurbrand.com/firma/logo-zurbrand-v4-01.png" class="logo-zurbrand" alt="Zurbrand | Diseño web profesional" title="Zurbrand | Diseño web profesional"></a></div>
         </div>
     </div>
 </body>

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+<meta name="csrf-token" content="{{ csrf_token() }}">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -35,28 +36,31 @@
     <div class="jumbotron">
         <div class="container col-md-12 h-100">
             <div class="row h-100 align-items-end">
-                <div class="col-md-4 mx-auto">
+                <div class="col-md-5 mx-auto">
                     <form action={{route('soporte')}} method="POST">
                         {{ csrf_field() }}
-                        <div class="row">
-                            <h2 col-md-12>Enviar E-Mail de consulta</h2>
-                            <h4 col-md-12>Introduce tus datos</h4>
-                            <p col-md-12>*todos los campos son obligatorios</p>
-                            <div class="form-group col-md-12">
-                                <label for="name">E-Mail</label>
-                                <input class="form-control" type="email" id="mail" name="mail" required>
-                            </div>
-                            <div class="form-group col-md-12">
-                                <label for="name">Nombre</label>
-                                <input class="form-control" name="nombre" type="text" required>
-                            </div>
-                            <div class="form-group col-md-12">
-                                <label for="name">Consulta</label>
-                                <textarea class="form-control" style="height: 200px;" name="consulta" type="text" required></textarea>
+                        <h4>Consulta de soporte tecnico</h4>
+                        <h5>Todos los campos son obligatorios</h5>
+                        <hr>
+
+                        <div class="form-group text-dark row">
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control rounded-0" type="email" id="mail" name="mail" placeholder="Email" required>
                             </div>
                         </div>
-                        <div class="row">
-                            <button type="submit" id='btn-contact' class="btn btn-primary col-6 ml-3">Enviar</button>
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control rounded-0" name="nombre" placeholder="Nombre" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control rounded-0"  name="consulta" rows="4" placeholder="Consulta" required></textarea>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                <button type="submit" id='btn-contact' class="btn btn-dark rounded-0" required>Enviar</button>
+                            </div>
                         </div>
                     </form>
                     <hr>

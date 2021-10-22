@@ -1,11 +1,12 @@
 @extends('layouts.navbarLayout')
 
 @section('content')
+
 <div class="container d-flex justify-content-between col-md-12 bg-intro pr-0">
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-agricultura-digital/bg-intro-agricultura-digital.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-agricultura-digital/bg-intro-agricultura-digital.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
@@ -17,7 +18,7 @@
             </div>
         </div>
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-agricultura-digital/bg-intro-agricultura-digital.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-agricultura-digital/bg-intro-agricultura-digital.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -38,7 +39,7 @@
                 </div>
                 <div class="col-md-10 p-3 bg-white rounded shadow">
                     <div class="row">
-                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/X2xiXA3ynpQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/KokNHPjlwRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <h5 class="barlow600 pt-2">VIDEO EXPLICATIVO</h5>
                 </div>
@@ -46,7 +47,7 @@
         </div>
     </div>
     <div class="text-center pt-2 pb-5">
-        <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
+        <a href="/regular" class="btn btn-lg btn-success text-white montserrat600 rounded-0">ACCESO A LA PLATAFORMA</a>
     </div>
 </div>
 
@@ -57,15 +58,9 @@
                 <div class="col-md-10 pb-4">
                     <h4 class="barlow700 pt-4 pb-3">Certificacion digital de actividades agropecuarias</h4>
                     <br>
-                    <h5 class="barlow300">Sistema innovador y &uacute;nico de certificaci&oacute;n digital de actividades agropecuarias en la nube.</h5>
-                    <h5 class="barlow300">Proceso totalmente auditable y en la nube.</h5>
-                    <h5 class="barlow300">Flexible. El cliente es el que fija los alcances y presi&oacute;n de certificaciones.</h5>
-                    <h5 class="barlow300">El sistema es el que toma la decisi&oacute;n del resultado de la certificaci&oacute;n, el auditor, tiene la misi&oacute;n de relevar a campo los datos que debe cargar en su Smart phone. Estos datos viajan a la nube donde cada uno es contrastado con la orden de trabajo y a su vez se contemplan los rangos de tolerancia. Es aqu&iacute;, dentro del sistema donde la actividad se aprueba o rechaza, por lo que es imposible que el auditor interfiera los resultados.</h5>
-                    <h5 class="barlow300">El cliente configura los umbrales de sensibilidad, y es el &uacute;nico que tiene acceso a editar esta informaci&oacute;n. </h5>
-                    <h5 class="barlow300">Rapidez en la obtenci&oacute;n de los resultados de la certificaci&oacute;n, luego de la carga de los datos el sistema define si la actividad es aprobada o deber ser corregida.</h5>
-                    <h5 class="barlow300">El cliente puede tener acceso al sistema para consultar el estado de un proceso y saber qui&eacute;nes est&aacute;n involucrados.</h5>
-                    <h5 class="barlow300">Sistema Mobile (puede operar off line) y Desktop.</h5>
-                    <h5 class="barlow300">El sistema Mobile indica sobre el mapa donde nos encontramos, lo que garantiza la realizaci&oacute;n de la operaci&oacute;n de certificaci&oacute;n de forma segura sin depender de terceros. En el celular esta toda la informaci&oacute;n necesaria para la realizaci&oacute;n del control de cada actividad.</h5>
+                    <h5 class="barlow300">
+                        Podemos lograr el &eacute;xito de nuestros cultivos gracias a tener la mejor semilla, el mejor fertilizante, la mejor planificaci&oacute;n de siembra, el mejor lote, el mejor asesor, siempre y cuando tengamos el control de que cada proceso se cumpla en tiempo y forma. G&D desarrollo junto a sus partner la Certificaci&oacute;n Digital de Actividades Agropecuarias, que permite justamente asegurarse que todas las tareas se realicen conforme al plan. Nuestro servicio informa en tiempo real el estado de cada actividad a todos los involucrados en la misma, con el fin de que, ante alg&uacute;n desajuste, esta sea detenida inmediatamente y corregida en escasos minutos.  Controlar las actividades realizadas durante el cultivo y los insumos que esta utiliza genera la garant&iacute;a de que todo el proceso se realizara conforme a lo planificado, con el fin de que sus cultivos sean un &eacute;xito
+                    </h5>
                 </div>
             </div>
         </div>
@@ -80,73 +75,73 @@
                     <div id="mediaCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva1.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva1.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva2.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva2.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva3.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva3.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva4.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva4.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva5.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva5.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva6.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva6.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva7.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva7.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva8.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva8.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva9.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva9.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva10.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva10.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva11.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva11.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva12.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva12.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva13.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva13.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva14.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva14.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva15.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva15.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva16.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva16.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva17.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva17.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva18.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva18.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva19.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva19.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva20.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva20.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva21.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva21.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva22.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva22.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agricultura-digital/Diapositiva23.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agricultura-digital/Diapositiva23.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                     </div>

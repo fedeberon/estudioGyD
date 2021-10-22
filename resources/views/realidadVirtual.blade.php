@@ -5,7 +5,7 @@
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-realidad-virtual/bg-intro-realidad-virtual.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-realidad-virtual/bg-intro-realidad-virtual.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
@@ -15,12 +15,12 @@
                 <h4 class="text-white montserrat300">
                     G&D junto a su partner Unimmerse brinda a las empresas La tecnolog&iacute;a de Realidad Virtual, que permite a estas contar con espacios reales recreados virtualmente y de esta forma les permite poder capacitar a su personal en condiciones de m&aacute;xima seguridad, en entornos protegido, pudiendo repetir el proceso cuantas veces sea necesario y medir el avance de cada usuario. Adem&aacute;s no se exponen las maquinarias a un intenso uso para la capacitaci&oacute;n ni se expone a los operarios a riesgos innecesarios.
                 </h4>
-                <img src="/maquetacion/p-realidad-virtual/logo-unimmerse.jpg" class="img-fluid float-left" alt="Responsive image">
+                <img src="/images/p-realidad-virtual/logo-unimmerse.jpg" class="img-fluid float-left" alt="Responsive image">
                 </p>
             </div>
         </div>
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-realidad-virtual/bg-intro-realidad-virtual.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-realidad-virtual/bg-intro-realidad-virtual.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -43,25 +43,30 @@
                     <div class="col-md-12 pt-3 pb-3">
                         <div class="row">
                             <div class="col-md-6 col-6 pb-4">
-                                <img src="/maquetacion/p-realidad-virtual/intro-01.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-realidad-virtual/intro-01.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-md-6 col-6 pb-4">
-                                <img src="/maquetacion/p-realidad-virtual/intro-02.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-realidad-virtual/intro-02.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-md-6 col-6 pb-4">
-                                <img src="/maquetacion/p-realidad-virtual/intro-03.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-realidad-virtual/intro-03.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-md-6 col-6 pb-4">
-                                <img src="/maquetacion/p-realidad-virtual/intro-04.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-realidad-virtual/intro-04.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                         <div class="row bg-nav">
                             <div class="col-md-10 p-3">
-                                <img src="/maquetacion/p-realidad-virtual/estructura.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-realidad-virtual/estructura.jpg" class="img-fluid" alt="Responsive image">
                                 </div>
                             <div class="col-md-2 pt-3">
                                 <p class="barlow300">ESTRUCTURA<br>ORIGINAL</p>
                             </div>
+                        </div>
+                        <div class="col-md-12 p-3 bg-white">
+                            <video controls width="100%" height="85%" class="pt-3">
+                                <source src="/images/p-agrimensura/Planta-gas-v1.mp4" type="video/mp4">
+                            </video>
                         </div>
                     </div>
                 </div>
@@ -84,9 +89,9 @@
                     </h5>
                 </div>
                 <div class="col-md-12 p-3 bg-white rounded shadow">
-                    <video controls width="100%" height="85%" class="pt-3">
-                        <source src="/maquetacion/p-realidad-virtual/videos/VR Telco.mp4" type="video/mp4">
-                    </video>
+                    <div class="row">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/AI5FGd3hoIc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     <h5 class="barlow600 pt-2">IMAGEN RENDERIZADA</h5>
                 </div>
             </div>
@@ -108,9 +113,9 @@
                     </h5>
                 </div>
                 <div class="col-md-12 p-3 bg-white rounded shadow">
-                    <video controls width="100%" height="85%" class="pt-3">
-                        <source src="/maquetacion/p-realidad-virtual/videos/G_D realidad virtual aerosillas1.mp4" type="video/mp4">
-                    </video>
+                    <div class="row">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/NILphukwmvU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     <h5 class="barlow600 pt-2">RECORRIDO VIRTUAL</h5>
                 </div>
             </div>

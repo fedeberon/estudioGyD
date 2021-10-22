@@ -5,7 +5,7 @@
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-inteligencia-artificial/bg-intro-inteligencia.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-inteligencia-artificial/bg-intro-inteligencia.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
@@ -20,7 +20,7 @@
         </div>
 
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-inteligencia-artificial/bg-intro-inteligencia.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-inteligencia-artificial/bg-intro-inteligencia.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -34,13 +34,16 @@
                     <h5 class="barlow300">Los multicopteros son drones que presentan varios motores que le permite realizar vuelos a muy baja altura gracias a su gran capacidad de control, esto nos permite poder obtener im&aacute;genes de cultivos en emergencia o en plantaciones forestales reci&eacute;n plantadas, de forma tal que utilizando nuestros algoritmos de inteligencia artificial podemos contar la cantidad de plantas por surco, conocer su espaciamiento tanto en la l&iacute;nea de siembra como entre surcos. Esta tecnolog&iacute;a genera datos precisos. </h5>
                 </div>
                 <div class="col-md-12 pt-2 rounded shadow">
-                    <video controls width="100%" height="85%" class="pt-3">
-                        <source src="/maquetacion/p-inteligencia-artificial/videos/3-Vision Artificial G_D.mp4" type="video/mp4">
-                    </video>
-                    <h5 class="barlow600 pt-2">VISION ARTIFICIAL</h5>
+                    <div class="row pt-3">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/QyvB77z9XIk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h5 class="barlow600 py-2">VISION ARTIFICIAL</h5>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="text-center pt-2 pb-3">
+        <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
     </div>
 </div>
 
@@ -54,11 +57,14 @@
                         El procesar las imágenes provistas por un drone por determinados algoritmos de inteligencia artificial desarrollados por G&D permiten obtener la cantidad de animales presentes sobre el área relevada por el drone.
                     </h5>
                 </div>
-                <div class="col-md-12">
-                    <img src="/maquetacion/p-inteligencia-artificial/conteo-animales.jpg" class="img-fluid" alt="Responsive image">
+                <div class="col-md-12 text-center">
+                    <img src="/images/p-inteligencia-artificial/conteo-animales.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
+    </div>
+    <div class="text-center pt-2 pb-5">
+        <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
     </div>
 </div>
 
@@ -74,17 +80,22 @@
                     </h5>
                 </div>
                 <div class="col-md-12 p-3 bg-white rounded shadow">
-                    <div id="mediaCarousel" class="carousel slide" data-ride="carousel">
+                    <div id="mediaCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <video controls width="100%" height="85%" class="pt-3">
-                                    <source src="/maquetacion/p-inteligencia-artificial/videos/Identificacion de personas.mp4" type="video/mp4">
-                                </video>
+                                <div class="row">
+                                    <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/O2d_GZIZvcA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
                             <div class="carousel-item">
-                                <video controls width="100%" height="85%" class="pt-3">
-                                    <source src="/maquetacion/p-inteligencia-artificial/videos/virgen_cerro_demo.mp4" type="video/mp4">
-                                </video>
+                                <div class="row">
+                                    <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/rmmq7CfBld8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/RsL0-YaLrdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>

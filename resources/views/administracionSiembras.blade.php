@@ -5,7 +5,7 @@
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-administracion-siembras/bg-intro-administracion.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-administracion-siembras/bg-intro-administracion.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
@@ -20,7 +20,7 @@
         </div>
 
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-administracion-siembras/bg-intro-administracion.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-administracion-siembras/bg-intro-administracion.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -33,16 +33,16 @@
                     <div id="mediaCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/maquetacion/p-administracion-siembras/01.jpg" class="d-block w-100" alt="...">
+                                <img src="/images/p-administracion-siembras/01.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-administracion-siembras/02.jpg" class="d-block w-100" alt="...">
+                                <img src="/images/p-administracion-siembras/02.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-administracion-siembras/03.jpg" class="d-block w-100" alt="...">
+                                <img src="/images/p-administracion-siembras/03.jpg" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-administracion-siembras/04.jpg" class="d-block w-100" alt="...">
+                                <img src="/images/p-administracion-siembras/04.jpg" class="d-block w-100" alt="...">
                             </div>
                         </div>
                     </div>

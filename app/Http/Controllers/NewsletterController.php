@@ -2,11 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
-use Mail;
-use Log;
+use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Mail;
+
 
 class NewsletterController extends Controller
 {
@@ -27,10 +29,10 @@ class NewsletterController extends Controller
         return view('/home');
     }
 
-    public function newsletterEmail(Request $request)
+    /*public function newsletterEmail(Request $request)
     {
         $subject = "Newsletter Estudio G&D";
-        $from = "joa1499@gmail.com";
+        $from = "contacto@estudiogyd.com.ar";
         $emails = DB::table('users')
             ->where('suscrito', '=', 1)
             ->get('email');
@@ -44,6 +46,31 @@ class NewsletterController extends Controller
                 $msj->to($for);
             });
         }
+        return redirect('/home');
+    }*/
+
+    public function newsletterEmail(Request $request) {
+        try {
+          	$subject = "Newsletter Estudio G&D";
+            
+            $emails = DB::table('users')
+                ->where('suscrito', '=', 1)
+                ->get('email');
+
+            foreach ($emails as $email){
+                $for = $email->email;
+
+                Mail::send('/newsletter/newsletterEmail', $request->all(), function ($msj) use ($subject, $for) {
+                    $msj->subject($subject);
+                    $msj->to($for);
+                });
+            }
+
+        } catch (Exception $e) {
+            log::debug($e->getMessage());
+            return $e->getMessage();
+        }
+
         return redirect('/home');
     }
 }

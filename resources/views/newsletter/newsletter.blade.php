@@ -1,7 +1,7 @@
-@extends('layouts.navbarLayout')
+@extends('layouts.homeLayout')
 
 @section('content')
-<div class="jumbotron">
+<div class="jumbotron py-5">
     @if(Auth::user()->suscrito == '0')
         <h2 class="display-4">Suscribete a nuestro newsletter!</h2>
         <hr class="my-4">

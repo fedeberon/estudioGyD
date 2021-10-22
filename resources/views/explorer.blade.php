@@ -1,11 +1,11 @@
-@extends('layouts.navbarLayout')
+@extends('layouts.droneLayout')
 
 @section('content')
 <div class="container d-flex justify-content-between col-md-12 bg-intro pr-0">
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-dron-explorer/bg-intro-dron-explorer.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-dron-explorer/bg-intro-dron-explorer.png" class="img-fluid float-right" alt="Responsive image">
         </div>
 
         <div class="col-md-6">
@@ -23,7 +23,7 @@
         </div>
 
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-dron-explorer/bg-intro-dron-explorer.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-dron-explorer/bg-intro-dron-explorer.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -31,7 +31,7 @@
 <div class="container col-md-12 bg-white pt-5">
     <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
-            <img src="/maquetacion/p-dron-explorer/logo-explorer.jpg" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-dron-explorer/logo-explorer.jpg" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -54,10 +54,10 @@
                 <div class="col-md-10 pt-3 pb-5 d-none d-md-block">
                     <div class="row">
                         <div class="col-md-6 pb-4">
-                            <img src="/maquetacion/p-dron-explorer/intro-01.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-dron-explorer/intro-01.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                         <div class="col-md-6">
-                            <img src="/maquetacion/p-dron-explorer/intro-02.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-dron-explorer/intro-02.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -72,9 +72,22 @@
         <div class="col-md-10 ml-4 mr-4 mb-4 mt-2 bg-white rounded">
             <div class="col-md-6">
                 <ul class="list-unstyled text-center row">
-                    <li class="list-item col-12 py-2"><img class="float-left" src="/maquetacion/p-drones/dron-explorer.jpg" width="160px"><p class="text-success text-left montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER</p></li>
+                    <li class="list-item col-12 py-2"><img class="float-left" src="/images/p-drones/dron-explorer.jpg" width="160px"><p class="text-success text-left montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER</p></li>
                     <li class="list-item montserrat600 col-12 text-center border-top py-2">Peso<br><span class="montserrat400">3,5</span></li>
                     <li class="list-item montserrat600 col-12 text-center border-top py-2">Velocidad crucero<br><span class="montserrat400">70 km/h</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Velocidad del viento maxima para despegue<br><span class="montserrat400">40 km/h</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Autonomia<br><span class="montserrat400">1,30 hs</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Despegue<br><span class="montserrat400">Automatico</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Sistema de despuegue<br><span class="montserrat400">Lanzadera</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Caja de transporte<br><span class="montserrat400">Si</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Cantidad de baterias<br><span class="montserrat400">1</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Piloto automatico<br><span class="montserrat400">Si</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Radio control<br><span class="montserrat400">Si</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Homologado por ANAC<br><span class="montserrat400">Si</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Computadora de seguimiento de vuelo<br><span class="montserrat400">Opcional</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Cantidad de camaras que puede transportar<br><span class="montserrat400">2</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Tipo de camaras que puede transportar<br><span class="montserrat400">Multiespectral, RGB, Termicas</span></li>
+                    <li class="list-item montserrat600 col-12 text-center border-top py-2">Configuracion de vuelo<br><span class="montserrat400">Sistema de gestion de mision</span></li>
                 </ul>
             </div>
 
@@ -92,7 +105,7 @@
             <div class="col-md-12">
                 <ul class="list-unstyled text-center row">
                     <li class="list-item montserrat600 col-md-6 py-2"><p class="text-left pt-5 montserrat700 text-uppercase">RESUMEN DE LAS<br>CARACTERIST&iacute;CAS</p>
-                    <li class="list-item col-md-6 py-2"><img class="float-left" src="/maquetacion/p-drones/dron-explorer.jpg" width="180px"><p class="text-success montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER</p></li>
+                    <li class="list-item col-md-6 py-2"><img class="float-left" src="/images/p-drones/dron-explorer.jpg" width="180px"><p class="text-success montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER</p></li>
                     <li class="list-item montserrat600 col-md-6 border-top text-left py-2"><i class="fas fa-chevron-circle-right text-success"></i> Peso</li>
                     <li class="list-item col-md-6 border-top py-2">3,5</li>
                     <li class="list-item montserrat600 col-md-6 border-top text-left py-2"><i class="fas fa-chevron-circle-right text-success"></i> Velocidad crucero</li>
@@ -145,23 +158,23 @@
             <div id="mediaCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <video controls width="100%" height="50%">
-                        <source src="/maquetacion/p-dron-explorer/videos/Despegue manual con catapulta.mp4" type="video/mp4">
-                    </video>
+                    <div class="row">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/1jMtjbCmKfk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                     <div class="carousel-caption d-none d-md-block">
                         <h5 class="montserrat600">DESPEGUE</h5>
                         <p>Dron explorer.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <video controls width="100%" height="50%">
-                        <source src="/maquetacion/p-dron-explorer/videos/GOPR9209.MP4" type="video/mp4">
-                    </video>
+                    <div class="row">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/YvEMOZAYBfo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <video controls width="100%" height="50%">
-                        <source src="/maquetacion/p-dron-explorer/videos/GOPR9211.MP4" type="video/mp4">
-                    </video>
+                    <div class="row">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/ldX6XypyuCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>

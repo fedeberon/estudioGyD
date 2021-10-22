@@ -3,13 +3,13 @@
 @section('content')
 <div class="container col-md-12 d-none d-md-block">
     <div class="row">
-        <img src="/maquetacion/p-empresa/empresa.jpg" class="img-fluid" alt="Responsive image">
+        <img src="/images/p-empresa/empresa.jpg" class="img-fluid width100" alt="Responsive image">
     </div>
 </div>
 
 <div class="container col-md-12 d-md-none">
     <div class="row">
-        <img src="/maquetacion/p-empresa/empresa-mobile.jpg" class="img-fluid" alt="Responsive image">
+        <img src="/images/p-empresa/empresa-mobile.jpg" class="img-fluid width100" alt="Responsive image">
     </div>
 </div>
 
@@ -68,7 +68,7 @@
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-md-12 pb-4">
-                                <img src="/maquetacion/p-empresa/empresa-mapa.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-empresa/empresa-mapa.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                     </div>
@@ -127,7 +127,7 @@
                     </h5>
                 </div>
                 <div class="col-md-12">
-                    <img src="/maquetacion/p-empresa/empresa-premios.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-empresa/empresa-premios.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-ganaderia-precision/bg-intro-ganaderia.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-ganaderia-precision/bg-intro-ganaderia.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
@@ -21,7 +21,7 @@
         </div>
 
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-ganaderia-precision/bg-intro-ganaderia.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-ganaderia-precision/bg-intro-ganaderia.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -35,25 +35,23 @@
                 la cantidad de animales presentes dentro de un lote de manera rápida.
             </h5>
 
-            <h5 href="" class="barlow300 pt-3 underlined"><u>MAS INFORMACIÓN EN LA SIGUIENTE NOTA ></u></h5>
-
+            <a href="https://maquinac.com/2015/09/los-drones-ya-se-usan-hasta-para-contar-vacas/" target="_blank"> <h5 class="barlow300 pt-3 underlined"><u>MAS INFORMACIÓN EN LA SIGUIENTE NOTA ></u></h5></a>
         </div>
 
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-6 pb-4">
-                    <img src="/maquetacion/p-ganaderia-precision/conteo-ganado-1.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-ganaderia-precision/conteo-ganado-1.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-md-6">
-                    <img src="/maquetacion/p-ganaderia-precision/conteo-ganado-2.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-ganaderia-precision/conteo-ganado-2.jpg" class="img-fluid" alt="Responsive image">
                 </div>
 
                 <div class="col-md-12 rounded shadow">
-                    <video controls width="100%" height="90%" class="pt-3">
-                        <source src="/maquetacion/p-ganaderia-precision/video/conteo de ganado.mp4" type="video/mp4">
-                    </video>
-
-                    <h5 class="barlow600 pt-2">SOFTWARE DE CONTEO DE GANADO</h5>
+                    <div class="row pt-3">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/i769u0M8W_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h5 class="barlow600 py-2">SOFTWARE DE CONTEO DE GANADO</h5>
                 </div>
             </div>
         </div>
@@ -78,7 +76,7 @@
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="/maquetacion/p-ganaderia-precision/collar-ganadero.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-ganaderia-precision/collar-ganadero.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
@@ -119,7 +117,7 @@
             <div class="col-md-10 pt-3 pb-5">
                 <div class="row">
                     <div class="col-md-12">
-                        <img src="/maquetacion/p-ganaderia-precision/perimetro-virtual.jpg" class="img-fluid" alt="Responsive image">
+                        <img src="/images/p-ganaderia-precision/perimetro-virtual.jpg" class="img-fluid" alt="Responsive image">
                     </div>
                 </div>
             </div>

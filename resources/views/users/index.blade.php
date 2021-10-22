@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.homeLayout')
 
 @section('content')
 <div class="container">
@@ -15,6 +15,7 @@
                                     <th scope="col">Usuario</th>
                                     <th scope="col">Email</th>
                                     <th scope="col">Rol</th>
+                                    <th scope="col">Suscrito</th>
                                     <th scope="col">Editar</th>
                                 </tr>
                             </thead>
@@ -24,6 +25,7 @@
                                         <td>{{$usr->id}}</td>
                                         <td>{{$usr->name}}</td>
                                         <td>{{$usr->email}}</td>
+                                        <td>{{$usr->suscrito}}</td>
                                         <td>{{$usr->role_id}}</td>
                                         <td><a href="{{action('UsersController@edit', $usr->id)}}"><i class="far fa-edit" style="font-size: 18px"></i></a></td>
                                     </tr>

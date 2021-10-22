@@ -5,13 +5,13 @@
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-drones-servicio/bg-intro-drones-servicio.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-drones-servicio/bg-intro-drones-servicio.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
                 <p class="text-white pl-5 pt-5">
-                <h6 class="text-success montserrat300">DRONES</h6>
-                <h2 class="text-white montserrat700">REALIDAD VIRTUAL</h2>
+                <h6 class="text-success montserrat300">SERVICIOS</h6>
+                <h2 class="text-white montserrat700">DRONES</h2>
                 <h4 class="text-white montserrat300">
                     Los drones tienen múltiples usos para diferentes rubros, permitiendo a las empresas contar con el servicio profesional  de G&D y su amplia experiencia, para cubrir la demanda de cada sector.
                 </h4>
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-drones-servicio/bg-intro-drones-servicio.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-drones-servicio/bg-intro-drones-servicio.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -40,23 +40,23 @@
                     <div class="col-md-12 pt-3 pb-3">
                         <div class="row">
                             <div class="col-md-12">
-                                <img src="/maquetacion/p-drones-servicio/banner-drones-agricultura.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/banner-drones-agricultura.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-md-6 pb-4">
                                 <h4 class="barlow700 pt-4 pb-3">INDICE VERDE</h4>
-                                <img src="/maquetacion/p-drones-servicio/drones-indiceverde.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-indiceverde.jpg" class="img-fluid" alt="Responsive image">
                                 <h5 class="barlow300 pt-3">
                                     Las cámaras multiespectrales tienen varios sensores donde cada uno registra un fragmento determinado del espectro electromagnético. Estos sensores captan la energía reflejada por el sol sobre la superficie de la Tierra en cada recorrido del drone. Esta información se procesa y se digitaliza para generar las distintas capas de datos para su posterior tratamiento de correcciones y análisis.
                                 </h5>
                             </div>
                             <div class="col-md-6"><h4 class="barlow700 pt-4 pb-3">MAPEO DE MALEZAS</h4>
-                                <img src="/maquetacion/p-drones-servicio/drones-mapeomalezas.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-mapeomalezas.jpg" class="img-fluid" alt="Responsive image">
                                 <h5 class="barlow300 pt-3">
                                     Utilizando las imágenes de nuestros drones, realizando el vuelo sobre el lote antes de la siembra podemos identificar las zonas cubiertas por malezas. Gracias a esto podemos construir un mapa de malezas el cual al estar georreferenciado permite poder confeccionar una prescripción de aplicación de herbicida que se carga en la computadora del aplicador y asi generar un ahorro de agroquímicos y un menor impacto ambiental.
                                 </h5>
                             </div>
                             <div class="col-md-12"><h4 class="barlow700 pt-4 pb-3">RELEVAMIENTO DE ENSAYOS</h4>
-                                <img src="/maquetacion/p-drones-servicio/drones-relevamientos.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-relevamientos.jpg" class="img-fluid" alt="Responsive image">
                                 <h5 class="barlow300 pt-3">
                                     Gracias a los drones hoy podemos obtener imágenes aéreas de gran calidad y resolución no solo de lotes de grandes superficies sino que además podemos obtener las mismas imágenes de parcelas o ensayos de cultivos de muy pequeñas dimensiones que permiten a las empresas poder evaluar el comportamiento de sus diferentes tratamientos con una capa más de información como son las imágenes de Índice Verde.
                                 </h5>
@@ -80,12 +80,11 @@
 
                     <div class="row">
                         <div class="col-12">
-                            <video controls width="100%" height="90%">
-                                <source src="/maquetacion/p-drones-servicio/CoordTrackerV1.1.mp4" type="video/mp4">
-                            </video>
+                            <div class="row">
+                                <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/laueDq3nZAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                         </div>
-
-                        <div class="col-12">
+                        <div class="col-12 pt-2">
                             <h5 class="barlow300">
                                 Nuestro sistema permite poder procesar y georreferenciar el video generado por un drone de manera rápida y precisa, de esta manera la información puede ser analizada ni bien el drone aterriza. Gracias a la georreferenciación podemos determinar las coordenadas de los lugares sobre los cuales se detecta algún problema dentro de los lotes, y así rápidamente poder actuar, si necesidad de grandes procesos de generación de mosaicos fotográficos
                             </h5>
@@ -116,10 +115,10 @@
                     <div class="col-md-12 pt-3 pb-3">
                         <div class="row">
                             <div class="col-md-6 pb-4">
-                                <img src="/maquetacion/p-drones-servicio/drones-catrasto-01.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-catrasto-01.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-md-6">
-                                <img src="/maquetacion/p-drones-servicio/drones-catrasto-02.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-catrasto-02.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                     </div>
@@ -148,10 +147,10 @@
                     <div class="col-md-12 pt-3 pb-3">
                         <div class="row">
                             <div class="col-md-6 pb-4">
-                                <img src="/maquetacion/p-drones-servicio/drones-seguros-01.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-seguros-01.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-md-6">
-                                <img src="/maquetacion/p-drones-servicio/drones-seguros-02.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-seguros-02.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                     </div>
@@ -180,7 +179,7 @@
                     <div class="col-md-12 pt-3 pb-3">
                         <div class="row">
                             <div class="col-md-12 pb-4">
-                                <img src="/maquetacion/p-drones-servicio/drones-ganaderia.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-ganaderia.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                     </div>
@@ -209,7 +208,7 @@
                     <div class="col-md-12 pt-3 pb-3">
                         <div class="row">
                             <div class="col-md-12 pb-4">
-                                <img src="/maquetacion/p-drones-servicio/drones-edificios.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-edificios.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                     </div>
@@ -238,7 +237,7 @@
                                 <h4 class="barlow700 text-uppercase pt-4 pb-3">
                                     GAS
                                 </h4>
-                                <img src="/maquetacion/p-drones-servicio/drones-gas-01.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-gas-01.jpg" class="img-fluid" alt="Responsive image">
                                 <h5 class="barlow300">
                                     Mapeo de gasoductos para evaluar las construcciones existentes a cada lado de la traza o el estado de la infraestructura
                                 </h5>
@@ -247,25 +246,40 @@
                                 <h4 class="barlow700 text-uppercase pt-4 pb-3">
                                     RELEVAMIENTO DE ANTORCHAS
                                 </h4>
-                                <img src="/maquetacion/p-drones-servicio/drones-gas-02.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-gas-02.jpg" class="img-fluid" alt="Responsive image">
                                 <h5 class="barlow300">
                                     Relevamiento de Antorchas con cámaras térmicas y RGB sin necesidad de generar una parada de planta. De esta manera se evalúan los diferentes componentes y su estado
                                 </h5>
                             </div>
-                            <div class="col-md-12 p-3 bg-white rounded shadow">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <video controls width="100%" height="80%" class="pt-3">
-                                            <source src="/maquetacion/p-drones-servicio/vista superior.mp4" type="video/mp4">
-                                        </video>
-                                    </div>
 
-                                    <div class="col-12">
-                                        <h4 class="barlow700 pt-4 pb-3">INSPECCION DE TORRES</h4>
-                                        <h5 class="barlow300">
-                                            Relevamiento de Torres y equipos dispuestos en las mismas para evaluar la correcta instalación de todas sus componentes.
-                                        </h5>
+                            <div class="col-md-12 p-3 bg-white rounded shadow">
+                                <div id="mediaCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <div class="row">
+                                                <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/welPErY7vfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/Q2nk5_qkV3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="row">
+                                                <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/JfFqm8WsehI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            </div>
+                                        </div>
                                     </div>
+                                </div>
+                                <h4 class="barlow700 py-2">INSPECCION DE TORRES</h4>
+                                <h5 class="barlow300">
+                                    Relevamiento de Torres y equipos dispuestos en las mismas para evaluar la correcta instalación de todas sus componentes.
+                                </h5>
+
+                                <div class="text-center pt-3">
+                                    <button class="btn btn-default rounded-circle" href="#mediaCarousel" data-slide="prev"><i class="fas fa-chevron-left text-success"></i></button>
+                                    <button class="btn btn-default rounded-circle" href="#mediaCarousel" data-slide="next"><i class="fas fa-chevron-right text-success"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -295,10 +309,10 @@
                     <div class="col-md-12 pt-3 pb-3">
                         <div class="row">
                             <div class="col-md-6 pb-4">
-                                <img src="/maquetacion/p-drones-servicio/drones-topografia-01.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-topografia-01.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="col-md-6">
-                                <img src="/maquetacion/p-drones-servicio/drones-topografia-02.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/drones-topografia-02.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                     </div>
@@ -307,6 +321,33 @@
         </div>
     </div>
     <div class="text-center pb-5">
+        <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
+    </div>
+</div>
+
+<div class="container col-md-12 bg-white">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-10 pt-3 pb-3">
+            <div class="row">
+                <div class="col-md-10 pb-4">
+                    <h4 class="barlow700 pt-4 pb-3">PULVERIZACI&Oacute;N CON DRONES</h4>
+                    <h5 class="barlow300">
+                        G&D brinda el servicio de pulverizaciones utilizando drones, esta tecnolog&iacute;a permite un mejor cuidado del medio ambiente ya que utiliza bajas dosis y mantiene al operario lejos del lugar de aplicaci&oacute;n brind&acute;ndole una gran seguridad.
+                    </h5>
+                </div>
+                <div class="col-md-12 p-3 bg-white rounded shadow">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+                                <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/bOkYew5FN4c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center pt-2 pb-5">
         <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
     </div>
 </div>
@@ -327,11 +368,11 @@
                     <div class="col-md-12 pt-3 pb-3">
                         <div class="row d-flex justify-content-between">
                             <div class="col-md-5 bg-white">
-                                <img src="/maquetacion/p-drones-servicio/dron-explorerpro.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/dron-explorerpro.jpg" class="img-fluid" alt="Responsive image">
                                 <a href="/explorerpro"><h5 class="card-title text-success montserrat300">DRON <span class="montserrat600">XPLORER PRO</span><i class="fas fa-chevron-circle-right text-right text-dark pl-2"></i></h5></a>
                             </div>
                             <div class="col-md-5 bg-white">
-                                <img src="/maquetacion/p-drones-servicio/dron-explorer.jpg" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-drones-servicio/dron-explorer.jpg" class="img-fluid" alt="Responsive image">
                                 <a href="/explorer"><h5 href="/explorer" class="card-title text-success montserrat300">DRON <span class="montserrat600">XPLORER</span><i class="fas fa-chevron-circle-right text-right text-dark pl-2"></i></h5></a>
                             </div>
                         </div>

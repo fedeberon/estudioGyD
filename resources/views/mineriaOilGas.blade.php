@@ -5,7 +5,7 @@
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-mineria-oilgas/bg-intro-mineria.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-mineria-oilgas/bg-intro-mineria.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
@@ -19,7 +19,7 @@
         </div>
 
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-mineria-oilgas/bg-intro-mineria.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-mineria-oilgas/bg-intro-mineria.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -34,21 +34,21 @@
             <div class="row">
                 <div class="card-deck">
                     <div class="card border-0 bg-nav">
-                        <img src="/maquetacion/p-mineria-oilgas/01.jpg" class="card-img-top" alt="...">
+                        <img src="/images/p-mineria-oilgas/01.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Relevamientos con drones</h5>
                             <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
                         </div>
                     </div>
                     <div class="card border-0 bg-nav">
-                        <img src="/maquetacion/p-mineria-oilgas/02.jpg" class="card-img-top" alt="...">
+                        <img src="/images/p-mineria-oilgas/02.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Mapeo con georadar</h5>
                             <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
                         </div>
                     </div>
                     <div class="card border-0 bg-nav">
-                        <img src="/maquetacion/p-mineria-oilgas/03.jpg" class="card-img-top" alt="...">
+                        <img src="/images/p-mineria-oilgas/03.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Relevamientos Lidar</h5>
                             <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
@@ -58,21 +58,21 @@
                 <br>
                 <div class="card-deck">
                     <div class="card border-0 bg-nav">
-                        <img src="/maquetacion/p-mineria-oilgas/04.jpg" class="card-img-top" alt="...">
+                        <img src="/images/p-mineria-oilgas/04.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Sondeos el&eacute;ctricos verticales</h5>
                             <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
                         </div>
                     </div>
                     <div class="card border-0 bg-nav">
-                        <img src="/maquetacion/p-mineria-oilgas/05.jpg" class="card-img-top" alt="...">
+                        <img src="/images/p-mineria-oilgas/05.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Estudios Ambientales</h5>
                             <a href="/consulta" class="btn btn-lg btn-success text-white montserrat600 rounded-0">CONSULTENOS</a>
                         </div>
                     </div>
                     <div class="card border-0 bg-nav">
-                        <img src="/maquetacion/p-mineria-oilgas/06.jpg" class="card-img-top" alt="...">
+                        <img src="/images/p-mineria-oilgas/06.jpg" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                             <h5 class="card-title">Realidad Virtual para capacitacion y Entrenamiento
                             </h5>

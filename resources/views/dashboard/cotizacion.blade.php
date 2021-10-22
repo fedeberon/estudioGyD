@@ -19,28 +19,32 @@
 <div class="jumbotron">
     <div class="container h-100">
         <div class="row h-100 align-items-end">
-            <div class="col-4 mx-auto">
+            <div class="col-md-5 mx-auto">
                 <form action={{route('cotizacion')}} method="POST">
                     {{ csrf_field() }}
-                    <div class="row">
-                        <h2>Solicitar Presupuesto</h2>
-                        <h3>Introduce tus datos</h3>
-                        <p>*todos los campos son obligatorios</p>
-                        <div class="form-group col-7">
-                            <label for="name">E-Mail</label>
-                            <input class="form-control" type="email" id="mail" name="mail" required>
-                        </div>
-                        <div class="form-group col-7">
-                            <label for="name">Nombre</label>
-                            <input class="form-control" name="nombre" type="text" required>
-                        </div>
-                        <div class="form-group col-7">
-                            <label for="name">Cantidad de Usuarios</label>
-                            <input class="form-control" name="cantusu" type="text" required>
+                    <h4>Enviar consulta de cotizacion</h4>
+                    <h5>Todos los campos son obligatorios</h5>
+                    <hr>
+
+                    <div class="form-group text-dark row">
+                        <div class="col-sm-12">
+                            <input type="email" class="form-control rounded-0" type="email" id="mail" name="mail" placeholder="Email" required>
                         </div>
                     </div>
-                    <div class="row">
-                        <button type="submit" id='btn-contact' class="btn btn-primary col-6 ml-3">Solicitar Cotizaci&oacute;n</button>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control rounded-0" name="nombre" placeholder="Nombre" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <input type="text" class="form-control rounded-0" name="cantusu" placeholder="Cantidad de usuarios" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12">
+                            <button type="submit" id='btn-contact' class="btn btn-dark rounded-0" required>Enviar</button>
+                        </div>
                     </div>
                 </form>
                 <hr>

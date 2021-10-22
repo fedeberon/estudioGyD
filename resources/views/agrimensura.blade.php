@@ -5,7 +5,7 @@
     <div class="row no-gutters">
 
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-agrimensura/bg-intro-agrimensura.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-agrimensura/bg-intro-agrimensura.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-agrimensura/bg-intro-agrimensura.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-agrimensura/bg-intro-agrimensura.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -57,7 +57,7 @@
                     <h5 class="barlow300">Calculo de Rasantes</h5>
                 </div>
                 <div class="col-md-12 pt-4">
-                    <img src="/maquetacion/p-agrimensura/agrimensor.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agrimensura/agrimensor.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
@@ -78,52 +78,52 @@
                     <div id="mediaCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva2.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva2.jpg" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva3.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva3.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva4.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva4.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva5.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva5.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva6.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva6.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva7.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva7.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva8.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva8.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva9.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva9.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva10.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva10.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva11.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva11.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva12.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva12.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva13.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva13.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva14.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva14.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva15.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva15.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva16.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva16.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                             <div class="carousel-item">
-                                <img src="/maquetacion/p-agrimensura/Diapositiva17.JPG" class="img-fluid" alt="Responsive image">
+                                <img src="/images/p-agrimensura/Diapositiva17.JPG" class="img-fluid" alt="Responsive image">
                             </div>
                         </div>
                     </div>

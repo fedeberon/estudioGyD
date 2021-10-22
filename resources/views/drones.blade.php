@@ -1,10 +1,10 @@
-@extends('layouts.navbarLayout')
+@extends('layouts.droneLayout')
 
 @section('content')
     <div class="container d-flex justify-content-between col-md-12 bg-intro pr-0">
         <div class="row no-gutters">
             <div class="col-md-6 d-md-none">
-                <img src="/maquetacion/p-drones/bg-intro-drones.png" class="img-fluid float-left" alt="Responsive image">
+                <img src="/images/p-drones/bg-intro-drones.png" class="img-fluid float-left" alt="Responsive image">
             </div>
             <div class="col-md-6">
                 <div class="p-5" id="productosDrones">
@@ -23,7 +23,7 @@
             </div>
 
             <div class="col-md-6 d-none d-md-block">
-                <img src="/maquetacion/p-drones/bg-intro-drones.png" class="img-fluid float-right" alt="Responsive image">
+                <img src="/images/p-drones/bg-intro-drones.png" class="img-fluid float-right" alt="Responsive image">
             </div>
         </div>
     </div>
@@ -38,21 +38,21 @@
 
             <div class="card-deck col-md-10">
                 <div class="card">
-                    <img src="/maquetacion/p-drones/dron-explorerpro.jpg" class="card-img-top">
+                    <img src="/images/p-drones/dron-explorerpro.jpg" class="card-img-top">
                     <div class="card-body">
                         <a href="explorerpro"><h5 class="card-title text-success montserrat300">DRON <span class="montserrat600">XPLORER PRO</span><i class="fas fa-chevron-circle-right text-right text-dark pl-2"></i></h5></a>
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="/maquetacion/p-drones/dron-explorer.jpg" class="card-img-top">
+                    <img src="/images/p-drones/dron-explorer.jpg" class="card-img-top">
                     <div class="card-body">
                         <a href="/explorer"><h5 class="card-title text-success montserrat300">DRON <span class="montserrat600">XPLORER</span> <i class="fas fa-chevron-circle-right text-dark pl-2"></i></h5></a>
                     </div>
                 </div>
 
                 <div class="card d-none d-md-block">
-                    <img src="/maquetacion/p-drones/dron-comparacion.jpg" class="card-img-top">
+                    <img src="/images/p-drones/dron-comparacion.jpg" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title text-success montserrat300">COMPARATIVA <i class="fas fa-chevron-circle-right text-dark pl-2"></i></h5>
                     </div>
@@ -67,8 +67,8 @@
             <div class="col-md-10 ml-4 mr-4 mb-4 mt-2 bg-white rounded">
                 <div class="col-md-6">
                     <ul class="list-unstyled text-center row">
-                        <li class="list-item col-6 py-2"><img src="/maquetacion/p-drones/dron-explorerpro.jpg" class="float-left img-fluid col-12" alt="Responsive image"><p class="text-success text-left montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER PRO</p></li>
-                        <li class="list-item col-6 py-2"><img src="/maquetacion/p-drones/dron-explorer.jpg" class="float-left img-fluid col-12" alt="Responsive image"><p class="text-success text-left montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER</p></li>
+                        <li class="list-item col-6 py-2"><img src="/images/p-drones/dron-explorerpro.jpg" class="float-left img-fluid col-12" alt="Responsive image"><p class="text-success text-left montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER PRO</p></li>
+                        <li class="list-item col-6 py-2"><img src="/images/p-drones/dron-explorer.jpg" class="float-left img-fluid col-12" alt="Responsive image"><p class="text-success text-left montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER</p></li>
                         <li class="list-item montserrat600 col-6 text-center border-top py-2">Peso<br><span class="montserrat400">1,5</span></li>
                         <li class="list-item montserrat600 col-6 text-center border-top py-2">Peso<br><span class="montserrat400">3,5</span></li>
                         <li class="list-item montserrat600 col-6 text-center border-top py-2">Velocidad crucero<br><span class="montserrat400">70 km/h</span></li>
@@ -93,8 +93,8 @@
                 <div class="col-md-12">
                         <ul class="list-unstyled text-center row">
                             <li class="list-item montserrat600 col-md-4 py-2"><p class="text-left pt-5 montserrat700">COMPARATIVA<br>DE EQUIPOS</p></li>
-                            <li class="list-item col-md-4 py-2"><img class="float-left" src="/maquetacion/p-drones/dron-explorerpro.jpg" width="180px"><p class="text-success pt-5 montserrat700"><span class="montserrat400">DRON</span><br>XPLORER<br>PRO</p></li>
-                            <li class="list-item col-md-4 py-2"><img class="float-left" src="/maquetacion/p-drones/dron-explorer.jpg" width="180px"><p class="text-success montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER</p></li>
+                            <li class="list-item col-md-4 py-2"><img class="float-left" src="/images/p-drones/dron-explorerpro.jpg" width="180px"><p class="text-success pt-5 montserrat700"><span class="montserrat400">DRON</span><br>XPLORER<br>PRO</p></li>
+                            <li class="list-item col-md-4 py-2"><img class="float-left" src="/images/p-drones/dron-explorer.jpg" width="180px"><p class="text-success montserrat700 pt-5"><span class="montserrat400">DRON</span><br>XPLORER</p></li>
                             <li class="list-item montserrat600 col-md-4 border-top text-left py-2"><i class="fas fa-chevron-circle-right text-success"></i> Peso</li>
                             <li class="list-item col-md-4 border-top py-2">1,5</li>
                             <li class="list-item col-md-4 border-top py-2">3,5</li>
@@ -161,9 +161,9 @@
                 <div id="mediaCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <video controls width="100%" height="50%">
-                            <source src="/maquetacion/p-drones/videos/20181116_144514.mp4" type="video/mp4">
-                        </video>
+                        <div class="row">
+                            <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/yyGgwJ6hHtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                         <div class="carousel-caption d-none d-md-block">
                             <h5 class="montserrat600">SEGUIMIENTO DE VUELO</h5>
                             <p>Software de planificaci&oacute;n y seguimiento de telemer&iacute;a de vuelo.</p>
@@ -200,10 +200,10 @@
                 <div class="col-md-12 pt-3 pb-3">
                     <div class="row">
                         <div class="col-md-6 pb-4">
-                            <img src="/maquetacion/p-drones/metodologia-1.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-drones/metodologia-1.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                         <div class="col-md-6">
-                            <img src="/maquetacion/p-drones/metodologia-2.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-drones/metodologia-2.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -281,7 +281,7 @@
                             </p>
                         </div>
                         <div class="col-md-6 float-right">
-                            <img src="/maquetacion/p-drones/info-1.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-drones/info-1.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -306,7 +306,7 @@
                             </p>
                         </div>
                         <div class="col-md-6 float-right">
-                            <img src="/maquetacion/p-drones/info-2.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-drones/info-2.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -324,7 +324,7 @@
                             </p>
                         </div>
                         <div class="col-md-6 float-right">
-                            <img src="/maquetacion/p-drones/info-3.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-drones/info-3.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -342,7 +342,7 @@
                             </p>
                         </div>
                         <div class="col-md-6 float-right">
-                            <img src="/maquetacion/p-drones/info-4.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-drones/info-4.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -359,7 +359,7 @@
                             </p>
                         </div>
                         <div class="col-md-6 float-right">
-                            <img src="/maquetacion/p-drones/info-5.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-drones/info-5.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>

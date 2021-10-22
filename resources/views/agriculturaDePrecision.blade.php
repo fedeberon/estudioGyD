@@ -3,9 +3,8 @@
 @section('content')
 <div class="container d-flex justify-content-between col-md-12 bg-intro pr-0">
     <div class="row no-gutters">
-
         <div class="col-md-6 d-md-none">
-            <img src="/maquetacion/p-agricultura-precision/bg-intro-ap.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-agricultura-precision/bg-intro-ap.png" class="img-fluid float-right" alt="Responsive image">
         </div>
         <div class="col-md-6">
             <div class="p-5" id="productosDrones">
@@ -21,7 +20,7 @@
         </div>
 
         <div class="col-md-6 d-none d-md-block">
-            <img src="/maquetacion/p-agricultura-precision/bg-intro-ap.png" class="img-fluid float-right" alt="Responsive image">
+            <img src="/images/p-agricultura-precision/bg-intro-ap.png" class="img-fluid float-right" alt="Responsive image">
         </div>
     </div>
 </div>
@@ -39,16 +38,16 @@
         <div class="col-md-10 pt-3 pb-3">
             <div class="row">
                 <div class="col-md-6 pb-4">
-                    <img src="/maquetacion/p-agricultura-precision/estudio-01.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/estudio-01.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-md-6 pb-4">
-                    <img src="/maquetacion/p-agricultura-precision/estudio-02.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/estudio-02.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-md-6 pb-4">
-                    <img src="/maquetacion/p-agricultura-precision/estudio-03.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/estudio-03.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-md-6 pb-4">
-                    <img src="/maquetacion/p-agricultura-precision/estudio-04.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/estudio-04.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
@@ -69,9 +68,17 @@
                         La t&eacute;cnica de estimaci&oacute;n de rinde por Smart Sampling fue desarrollada por G&D (premio INNOVAR 2010) para lograr brindar un servicio de calidad y precisi&oacute;n que nos permite estimar el rinde a cosecha de cualquier cultivo en cualquier etapa de su desarrollo, logrando estimar su rinde futuro. Esto permite poder realizar ventas anticipadas, logrando mejores precios o diagramar la log&iacute;stica de transporte y cosecha.
                     </h5>
                 </div>
-                <div class="col-md-12 pt-2 rounded shadow">
-                    <img src="/maquetacion/p-agricultura-precision/clasificacion-pixel.jpg" class="img-fluid" alt="Responsive image">
-                    <h5 class="barlow600 pt-2">SMART SAMPLING AUTOGESTIONABLE</h5>
+                <div class="col-md-12 rounded shadow">
+                    <div class="row py-3">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/umQiLW_MK6c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-12 pt-4">
+                    <div class="row">
+                        <div class="col-md-12 pb-4">
+                            <img src="/images/p-agricultura-precision/estimacion de rinde.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="text-center pt-5">
@@ -94,13 +101,13 @@
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-6 pb-4">
-                    <img src="/maquetacion/p-agricultura-precision/mapeo-p-1.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/mapeo-p-1.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-md-6">
-                    <img src="/maquetacion/p-agricultura-precision/mapeo-p-2.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/mapeo-p-2.jpg" class="img-fluid" alt="Responsive image">
                 </div>
                 <div class="col-md-12">
-                    <img src="/maquetacion/p-agricultura-precision/mapeo-p-3.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/mapeo-p-3.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
@@ -121,25 +128,26 @@
                         Conocer la profundidad a la que se encuentra la napa es muy &uacute;til, para la toma de decisiones. G&D a partir de su servicio de mapeo de napas con Georadar, le entrega al productor un mapa de la distribuci&oacute;n de la napa a lo largo de los lotes y as&iacute; poder ambientar el campo en zonas con efecto de napa y sin efecto de napa, para luego realizar una aplicaci&oacute;n variable de siembra, logrando de estar forma maximizar el potencial productivo de cada ambiente. </h5>
                     </h5>
                 </div>
-                <div class="col-md-12 pt-2 rounded shadow">
-                    <video controls width="100%" height="85%" class="pt-3">
-                        <source src="/maquetacion/p-agricultura-precision/videos/Mapeo de Napas con Georadar II.mp4" type="video/mp4">
-                    </video>
-                    <h5 class="barlow600 pt-2">MAPEO DE NAPA</h5>
+
+                <div class="col-md-12 bg-white rounded shadow">
+                    <div class="row pt-3">
+                        <iframe class="col-12" style="height: 500px; width: 100%;" src="https://www.youtube.com/embed/rCFwZ1rb2UU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <h5 class="barlow600 py-2">MAPEO DE NAPA</h5>
                 </div>
                 <div class="col-md-12 pt-4">
                     <div class="row">
                         <div class="col-md-6 pb-4">
-                            <img src="/maquetacion/p-agricultura-precision/mapeo-n-1.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-agricultura-precision/mapeo-n-1.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                         <div class="col-md-6 pb-4">
-                            <img src="/maquetacion/p-agricultura-precision/mapeo-n-2.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-agricultura-precision/mapeo-n-2.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                         <div class="col-md-6 pb-4">
-                            <img src="/maquetacion/p-agricultura-precision/mapeo-n-3.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-agricultura-precision/mapeo-n-3.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                         <div class="col-md-6 pb-4">
-                            <img src="/maquetacion/p-agricultura-precision/mapeo-n-4.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="/images/p-agricultura-precision/mapeo-n-4.jpg" class="img-fluid" alt="Responsive image">
                         </div>
                     </div>
                 </div>
@@ -163,7 +171,7 @@
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="/maquetacion/p-agricultura-precision/muestreo.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/muestreo.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
@@ -186,7 +194,7 @@
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="/maquetacion/p-agricultura-precision/procesamiento.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/procesamiento.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
@@ -207,7 +215,7 @@
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="/maquetacion/p-agricultura-precision/rastraveris.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/rastraveris.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
@@ -227,13 +235,13 @@
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-6 pb-4">
-                    <img src="/maquetacion/p-agricultura-precision/relevamiento-1.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/relevamiento-1.jpg" class="img-fluid" alt="Responsive image">
                     <h4 class="barlow700 pt-4 pb-3">ALTIMETRIA</h4>
                     <h5 class="barlow300">Gracias a nuestra experiencia y calidad de servicios, G&D obtiene la topograf&iacute;a de los lotes utilizando diferente herramienta tecnol&oacute;gicas, como ser, Drones, GPS geod&eacute;sicos y Lidar. Esto permitir&aacute; contar con informaci&oacute;n para poder realizar un correcto estudio del movimiento del agua dentro de una zona
                     </h5>
                 </div>
                 <div class="col-md-6">
-                    <img src="/maquetacion/p-agricultura-precision/relevamiento-2.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/relevamiento-2.jpg" class="img-fluid" alt="Responsive image">
                     <h4 class="barlow700 pt-4 pb-3">PLANIMETRIA</h4>
                     <h5 class="barlow300">Las medici&oacute;n de precisi&oacute;n que realiza G&D utilizando la &uacute;ltima tecnolog&iacute;a, permite poder armar la estructura inicial para comenzar con un planteo de agricultura de precisi&oacute;n o manejo por ambientes. Adem&aacute;s la informaci&oacute;n generada le permite a la empresa, controlar las hect&aacute;reas facturadas por los contratistas, y as&iacute; pagar por lo que realmente se hace, estimar cantidad de insumos necesarios para cada lote o programar la log&iacute;stica de cosecha entre otras cosas.
                     </h5>
@@ -259,7 +267,7 @@
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="/maquetacion/p-agricultura-precision/prescripcion.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/prescripcion.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
@@ -281,7 +289,7 @@
         <div class="col-md-10 pt-3 pb-5">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="/maquetacion/p-agricultura-precision/estimacion.jpg" class="img-fluid" alt="Responsive image">
+                    <img src="/images/p-agricultura-precision/estimacion.jpg" class="img-fluid" alt="Responsive image">
                 </div>
             </div>
         </div>
