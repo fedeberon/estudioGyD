@@ -219,7 +219,7 @@
 
                             <div class="col-md-7 py-5">
                                 <div class="row">
-                                    <div class="col-4 border-right"><p class="text-secondary text-center"><span></span><i class="fas fa-phone"></i><br>0249 444-7899</p></div>
+                                    <div class="col-4 border-right"><p class="text-secondary text-center"><span></span><i class="fas fa-phone"></i><br>0249 440-6585</p></div>
 
                                     <div class="col-4 border-right"><p class="text-secondary text-center"><span></span><i class="far fa-envelope"></i><br>info@estudiogyd.com.ar</p></div>
 
@@ -227,7 +227,7 @@
                                 </div>
 
                                 <div class="resp-container">
-                                    <iframe class="pt-4 resp-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.32070900844!2d-59.137488073863196!3d-37.334915377513326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911fbc59b1a737%3A0x2a46491aeaef42b8!2sB7000%2C%20Av.%20Avellaneda%20351%2C%20B7000%20Tandil%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1581344547005!5m2!1ses!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                                    <iframe class="pt-4 resp-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.7612954512424!2d-59.09885578507587!3d-37.324481613976076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95911fbc4fc8bc9f%3A0x4d873d2bda4cdbf0!2sEstudio%20G%26D!5e0!3m2!1ses!2sar!4v1647017345915!5m2!1ses!2sar" width="600" height="450" style="border:0;" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -378,7 +378,7 @@
         <div class="col-md-3 pl-6">
             <div class="pt-3 pb-3">
                 <div>
-                    <img src="\images\general\logo-footer.png" width="170px" height="70px">
+                    <img src="\images\general\logo-footer.png" width="160px" height="70px">
                 </div>
             </div>
         </div>
@@ -397,7 +397,7 @@
 
         <div class="col-md-3 pt-4 d-none d-md-block">
             <div>
-                <p class="text-secondary"><i class="fas fa-map-marker-alt"></i> Av. Avellaneda 351,<br>B7000 Tandil, Buenos Aires </p>
+                <p class="text-secondary"><i class="fas fa-map-marker-alt"></i> RN226 km 163,4,<br>B7000 Tandil, Buenos Aires </p>
             </div>
         </div>
     </div>
