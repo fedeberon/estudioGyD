@@ -220,7 +220,7 @@
 
         <div class="col-md-3 pt-4 d-none d-md-block">
             <div>
-                <p class="text-secondary"><i class="fas fa-map-marker-alt"></i> RN226 km 163,4,<br>B7000 Tandil, Buenos Aires </p>
+                <p class="text-secondary"><i class="fas fa-map-marker-alt"></i> RN226 km 163,4, <br>B7000 Tandil, Buenos Aires </p>
             </div>
         </div>
     </div>
