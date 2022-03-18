@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>EstudioG&D</title>
+    <link rel="icon" href="{{ asset('images/favicon.ico') }}">
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
@@ -249,7 +252,7 @@
         <div class="col-md-3 pl-6">
             <div class="pt-3 pb-3">
                 <div>
-                    <img src="\images\general\logo-footer.png" width="160px" height="70px">
+                    <img src="\images\general\logo-footer.png" width="150px" height="77px">
                 </div>
             </div>
         </div>
