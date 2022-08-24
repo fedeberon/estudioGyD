@@ -3,11 +3,8 @@
 @section('content')
 <div class="container col-md-12">
     <div class="row">
-        <img src="/images/p-home/intro.jpg" width="100%"  class="img-fluid" alt="Responsive image">
-        <div class="col-md-12 hometxt text-white text-center">
-            <h1 class="montserrat700 homefont pt-4 pb-3">INGENIERIA DIGITAL</h1>
-            <h4 class="barlow300 homefont">Aplicada al desarrollo productivo</h4>
-        </div>
+        <img src="/images/p-home/introResponsive.jpg" width="100%"  class="img-fluid d-block d-md-none" alt="Responsive image">
+        <img src="/images/p-home/intro.jpg" width="100%"  class="img-fluid d-none d-md-block"  alt="Responsive image">
     </div>
 </div>
 
