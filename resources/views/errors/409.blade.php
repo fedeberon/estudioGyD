@@ -1,9 +1,9 @@
 @extends('errors.layout')
 
 @php
-  $error_number = 419;
-  $error_description = "Pagina Expirada";
-  $error_message ="ups. La pagina expiro";
+  $error_number = 409;
+  $error_description = "Error del sistema del cliente";
+  $error_message ="ups. Parece que tenes un error en el sistema";
 @endphp
 
 @section('title')

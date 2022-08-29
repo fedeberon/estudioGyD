@@ -2,15 +2,33 @@
 
 @php
   $error_number = 429;
+  $error_description = "Muchas consultas";
+  $error_message ="ups. Parece que estas haciendo muchas consultas.";
 @endphp
 
 @section('title')
-  Too many requests.
+{{$error_description}}
+@endsection
+
+@section('content')
+<div class="p-3 bg-light text-dark">
+  <div class="text-center">
+    <div class="">
+      <div class="">
+        <div class="">
+          <h1>{{$error_message}}</h6>
+          <h6 class="">Error: {{$error_number}}</h1>
+        </div>
+        <a href="/"><button type="button" class="btn btn-success">Volver al inicio</button></a>
+      </div>
+    </div>
+  </div>
+</div>
 @endsection
 
 @section('description')
   @php
-    $default_error_message = "Please <a href='javascript:history.back()''>go back</a> and try again, or return to <a href='".url('')."'>our homepage</a>.";
+    $default_error_message = "Please <a href='javascript:history.back()''>go back</a> or return to <a href='".url('')."'>our homepage</a>.";
   @endphp
   {!! isset($exception)? ($exception->getMessage()?$exception->getMessage():$default_error_message): $default_error_message !!}
 @endsection

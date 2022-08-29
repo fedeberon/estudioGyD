@@ -2,10 +2,28 @@
 
 @php
   $error_number = 405;
+  $error_description = "metodo no autorizado";
+  $error_message ="ups. El metodo no esta permitido.";
 @endphp
 
 @section('title')
-  Method not allowed.
+{{$error_description}}
+@endsection
+
+@section('content')
+<div class="p-3 bg-light text-dark">
+  <div class="text-center">
+    <div class="">
+      <div class="">
+        <div class="">
+          <h1>{{$error_message}}</h6>
+          <h6 class="">Error: {{$error_number}}</h1>
+        </div>
+        <a href="/"><button type="button" class="btn btn-success">Volver al inicio</button></a>
+      </div>
+    </div>
+  </div>
+</div>
 @endsection
 
 @section('description')

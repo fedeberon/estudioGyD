@@ -2,10 +2,28 @@
 
 @php
   $error_number = 404;
+  $error_description = "La pagina no se encontro";
+  $error_message ="Upss. La pagina solicitada no se encontro... ";
 @endphp
 
 @section('title')
-  Page not found.
+  {{$error_description}}
+@endsection
+
+@section('content')
+<div class="p-3 bg-light text-dark">
+  <div class="text-center">
+    <div class="">
+      <div class="">
+        <div class="">
+          <h1>{{$error_message}}</h6>
+          <h6 class="">Error: {{$error_number}}</h1>
+        </div>
+        <a href="/"><button type="button" class="btn btn-success">Volver al inicio</button></a>
+      </div>
+    </div>
+  </div>
+</div>
 @endsection
 
 @section('description')
