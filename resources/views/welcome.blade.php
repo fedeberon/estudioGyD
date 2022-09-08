@@ -84,6 +84,10 @@
     </div>
 </div>
 
+<div class="bg-white d-flex mx-auto justify-content-center ">
+    <a href="/dowloads/EstudioGyD.pdf" download="EstudioGyD.pdf" class="my-4 btn btn-outline-success btn-success montserrat300 rounded-0"> Conocé mas </a>
+</div>
+
 <div class="container col-md-12 bg-drone pt-5 pb-5web">
     <div class="row d-flex justify-content-center">
         <div class="col-md-10">
